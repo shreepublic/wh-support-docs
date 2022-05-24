@@ -1,2 +1,2 @@
 # wh-support-docs
-Support Documentation for SPM-Portfolio
+Support documentation for the GHHS portfolio
