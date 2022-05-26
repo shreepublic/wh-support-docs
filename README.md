@@ -1,2 +1,2 @@
 # wh-support-docs
-Support documentation for the GHHS portfolio
+Support documentation for the Social Programs portfolio
