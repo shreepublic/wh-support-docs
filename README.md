@@ -1,2 +1,2 @@
-# wh-support-docs
-Support documentation for the Social Programs portfolio
+# Support docs transition site
+Here you'll find transitional support documentation for the Social Programs portfolio.
