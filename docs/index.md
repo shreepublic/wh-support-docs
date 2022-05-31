@@ -6,6 +6,6 @@ Previously published support documentation is still available at [Watson Health 
 
 * [Release notes](./release-notes/release-notes.md)
 
-* [Prerequisites and supported software](prerequisites/prerequisites-software.md)
+* [Prerequisites and supported software](./prerequisites/prerequisites-software.html)
 
 * [Technotes](technotes/technotes.md)
