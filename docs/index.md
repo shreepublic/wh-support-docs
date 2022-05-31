@@ -7,3 +7,5 @@ Existing support documentatin is unaffected for now.
 * [Release notes](release-notes/release-notes.md)
 
 * [Prerequisites and supported software](prerequisites/prerequisites.md)
+
+* [Technotes](technotes/technotes.md)
