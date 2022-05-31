@@ -10,5 +10,5 @@ Previously published support documentation is still available at [Watson Health 
 
 * [Technotes](technotes/technotes.html)
 
-* [test](/wh-support-docs/Test.html)
-* [test](wh-support-docs/Test.html)
+* [test](Test.html)
+* [test](/Test.html)
