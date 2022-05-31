@@ -9,6 +9,3 @@ Previously published support documentation is still available at [Watson Health 
 * [Prerequisites and supported software](prerequisites/prerequisites-software.html)
 
 * [Technotes](technotes/technotes.html)
-
-* [test](Test.html)
-* [test](/Test.html)
