@@ -6,6 +6,6 @@ Existing support documentatin is unaffected for now.
 
 * [Release notes](release-notes/release-notes.md)
 
-* [Prerequisites and supported software](prerequisites/prerequisites.md)
+* [Prerequisites and supported software](prerequisites/prerequisites-software.md)
 
 * [Technotes](technotes/technotes.md)
