@@ -4,8 +4,8 @@ New support documentation and security bulletins for the Social Programs portfol
 
 Existing support documentatin is unaffected for now.
 
-* [Release notes](release-notes/release-notes.md)
+* [Release notes](docs/release-notes/release-notes.md)
 
-* [Prerequisites and supported software](/prerequisites/prerequisites-software.md)
+* [Prerequisites and supported software](../prerequisites/prerequisites-software.md)
 
-* [Technotes](/technotes/technotes.md)
+* [Technotes](/docs/technotes/technotes.md)
