@@ -8,4 +8,4 @@ Existing support documentatin is unaffected for now.
 
 * [Prerequisites and supported software](prerequisites/prerequisites-software.html)
 
-* [Technotes](/docs/technotes/technotes.html)
+* [Technotes](/technotes/technotes.html)
