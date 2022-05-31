@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
+title: Support docs (transitiona)
+description: New support docs from July 1 onwards, existing docs are unaffected.
 github:
   is_project_page: false
