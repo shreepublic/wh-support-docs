@@ -4,8 +4,8 @@ New support documentation and security bulletins for the Social Programs portfol
 
 Previously published support documentation is still available at [Watson Health Support](https://www.ibm.com/watson-health/support) for now.
 
-* [Release notes](release-notes/release-notes.md)
+* [Release notes](release-notes/release-notes.html)
 
-* [Prerequisites and supported software](./docs/prerequisites/prerequisites-software.md)
+* [Prerequisites and supported software](wh-support-docs/prerequisites/prerequisites-software.md)
 
 * [Technotes](/docs/technotes/technotes.md)
