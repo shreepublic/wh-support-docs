@@ -4,8 +4,8 @@ From July 1 onwards, new installation, and support, and security information for
 
 Previously published support documentation is still available at [Watson Health Support](https://ibmwatsonhealth.force.com/mysupport).
 
-* [Release notes](release-notes/release-notes.html)
+* [Release notes](release-notes/release-notes.md)
 
 * [Prerequisites and supported software](prerequisites/prerequisites-software.md)
 
-* [Technotes](/technotes/technotes.html)
+* [Technotes](/technotes/technotes.md)
