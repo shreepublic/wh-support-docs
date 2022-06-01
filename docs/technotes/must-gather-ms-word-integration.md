@@ -6,7 +6,7 @@
 
 What information should I collect to help to diagnose Cúram Social Program Management Microsoft Word Integration issues?
 
-###Answer
+### Answer
 
 Collect the following information to investigate issues that relate to your Microsoft Word Integration. Enable logging, reproduce the issue, and send us the output for further analysis.
 
@@ -25,7 +25,7 @@ Collect the following information to investigate issues that relate to your Micr
  
  Complete the follwing steps to enable logging:
  
- * Editing session trace log.
-        It is possible to create a trace log file on the user machine by setting the Control Panel -> Java -> Advanced -> Debugging -> Enable logging option.
-        If you enable logging in this way, the trace messages is output (in Microsoft Windows 7) to C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment.
+* Editing session trace log.
+ * It is possible to create a trace log file on the user machine by setting the Control Panel -> Java -> Advanced -> Debugging -> Enable logging option.
+ * If you enable logging in this way, the trace messages is output (in Microsoft Windows 7) to C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment.
 
