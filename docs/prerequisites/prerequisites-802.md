@@ -1,11 +1,10 @@
 # IBM Cúram Social Program Management 8.0.2 Prerequisites and Supported Software
 
-
-## Prerequisites
-
-### Operating systems
+## Operating systems
 
 The Microsoft Windows platform is supported for the design, development, testing and building of the application on a server.
+
+### Microsoft Windows
 
 #### Windows 11 Enterprise x86-64
 
@@ -31,6 +30,8 @@ The Microsoft Windows platform is supported for the design, development, testing
 |-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
 |64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 
+### Linux
+
 The Linux platform is supported for building the application on a server.
 
 #### Red Hat Enterprise Linux (RHEL) 8 x86-64
@@ -43,11 +44,39 @@ The Linux platform is supported for building the application on a server.
 
 |Bitness|Base|7.1|7.2|7.3|7.4|7.5|7.6|7.7|7.8|7.9|Future|
 |-------|----|---|---|---|---|---|---|---|---|---|------|
-|64-Exploit|No|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|64-Exploit|No|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+
+
+## Prerequisites
+
+### Installation
+
+The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
+
+|Prerequisite|Version|
+|-------|----|
+|IBM Runtime Environment, Java Technology Edition|8 and future fix packs|
+|Oracle Java SDK/JRE/JDK|8.0 and future fix packs|
+
 
 ## Suppported software
 
-### Web browsers
+### Accessibility
+
+### Application Servers
+
+### Databases
+
+### Development Tools
+
+
+### Reporting and Analysis
+
+### Web Browser Plug-Ins
+
+
+
+### Web browsers (draft from UA)
 
 with the is developed for public-facing applications. Every effort was made to ensure that the application pages use standard web technologies and formats to be compatible with all browsers that are listed. However, the browsers that are listed in the following table are the only browsers that are officially supported.
 
