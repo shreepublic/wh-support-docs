@@ -1,8 +1,8 @@
 # Support docs transition site
 
-New support documentation and security bulletins for the Social Programs portfolio from July 1 onwards.
+From July 1 onwards, new installation, and support, and security information for the Social Programs portfolio is published here.
 
-Previously published support documentation is still available at [Watson Health Support](https://www.ibm.com/watson-health/support) for now.
+Previously published support documentation is still available at [Watson Health Support](https://ibmwatsonhealth.force.com/mysupport).
 
 * [Release notes](release-notes/release-notes.html)
 
