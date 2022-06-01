@@ -3,6 +3,37 @@
 Before you install or upgrade, review the prerequisites and supported software to ensure compatibility.
 
 
+## Operating systems
+
+The Windows 10 (+11?) platform is supported for the design, development, testing and building of the application on a server.
+
+### Windows 10 Enterprise x86-64
+
+|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
+|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
+|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+
+### Windows 10 Pro x86-64
+
+|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
+|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
+|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+
+### Windows 11 Enterprise x86-64
+
+|Bitness|Base|Future|
+|-------|----|------|
+|64-Exploit|Yes|Yes
+
+### Windows 11 Pro x86-64
+
+|Bitness|Base|Future|
+|-------|----|------|
+|64-Exploit|Yes|Yes
+
+
+
+
 ## Web browsers
 
 with the is developed for public-facing applications. Every effort was made to ensure that the application pages use standard web technologies and formats to be compatible with all browsers that are listed. However, the browsers that are listed in the following table are the only browsers that are officially supported.
