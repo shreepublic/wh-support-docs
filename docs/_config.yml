@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
 title: Support docs (transitional)
 description: New support docs for the Social Programs product.
-github:
-  is_project_page: false
+# github:
+#  is_project_page: false
