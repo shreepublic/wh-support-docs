@@ -61,7 +61,36 @@ The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
 
 ## Suppported software
 
-### Accessibility
+### Accessibility (draft from UA)
+
+This accessibility software is supported.
+
+|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
+|------------------|-------|--------------------|-----------------------------|-------|
+|Freedom Scientific JAWS screen reader|2020 and future fix packs|2020|No|11|
+|Apple VoiceOver|Any version and future fix packs|Any version|Any version|Microsoft Edge and [JAWS](http://www.freedomscientific.com/products/blindness/jaws) 2020 is the only certified screen reader and browser combination.
+
+|
+
+|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
+|------------------|-------|--------------------|-----------------------------|-------|
+|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
+|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
+|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
+
+|
+
+|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
+|------------------|-------|--------------------|-----------------------------|-------|
+|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
+|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
+|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
+
+|
+
+**Note:** The combination of Internet Explorer 11 and JAWS 2019 is the only certified screen reader and browser combination.
+
+**Note:** The combination of Internet Explorer 11 and JAWS 18 or 2018 is the only certified screen reader and browser combination.
 
 ### Application Servers
 
@@ -113,34 +142,3 @@ For each new product release, the prerequisites list the version that is certifi
 | |44 and future fix packs|No|
 | |11 and future fix packs|No|
 |Mozilla Firefox|70 and future fix packs|No|
-
-### Accessibility
-
-This accessibility software is supported.
-
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader|2020 and future fix packs|2020|No|11|
-|Apple VoiceOver|Any version and future fix packs|Any version|Any version|Microsoft Edge and [JAWS](http://www.freedomscientific.com/products/blindness/jaws) 2020 is the only certified screen reader and browser combination.
-
-|
-
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
-|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
-
-|
-
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
-|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
-
-|
-
-**Note:** The combination of Internet Explorer 11 and JAWS 2019 is the only certified screen reader and browser combination.
-
-**Note:** The combination of Internet Explorer 11 and JAWS 18 or 2018 is the only certified screen reader and browser combination.
