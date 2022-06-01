@@ -7,18 +7,6 @@ Before you install or upgrade, review the prerequisites and supported software t
 
 The Windows 10 (+11?) platform is supported for the design, development, testing and building of the application on a server.
 
-### Windows 10 Enterprise x86-64
-
-|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
-|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
-|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-
-### Windows 10 Pro x86-64
-
-|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
-|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
-|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-
 ### Windows 11 Enterprise x86-64
 
 |Bitness|Base|Future|
@@ -31,7 +19,33 @@ The Windows 10 (+11?) platform is supported for the design, development, testing
 |-------|----|------|
 |64-Exploit|Yes|Yes
 
+### Windows 10 Enterprise x86-64
 
+|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
+|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
+|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+
+### Windows 10 Pro x86-64
+
+|Bitness|Base|Anniversary Update|Creator's Update|Fall Creator's Update|April 2018 Update|1809|1903|1909|2004|20H2|21H1|21H2|Future|
+|-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
+|64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+
+
+
+The Linux platform is supported building the application on a server.
+
+### Red Hat Enterprise Linux (RHEL) 8 x86-64
+
+|Bitness|Base|8.1|8.2|8.3|8.4|8.5|Future|
+|-------|----|---|---|---|---|---|------|
+|64-Exploit|No|No|No|Yes|Yes|Yes|Yes|
+
+### Red Hat Enterprise Linux (RHEL) 7 x86-64
+
+|Bitness|Base|7.1|7.2|7.3|7.4|7.5|7.6|7.7|7.8|7.9|Future|
+|-------|----|---|---|---|---|---|---|---|---|---|------|
+|64-Exploit|No|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 
 
 ## Web browsers
