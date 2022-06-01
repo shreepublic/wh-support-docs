@@ -10,11 +10,11 @@ What information should I collect to help to diagnose Cúram Social Program Mana
 
 Collect the following information to investigate issues that relate to your Microsoft Word Integration. Enable logging, reproduce the issue, and send us the output for further analysis.
 
-* Detailed steps to reproduce the issue with screenshots (as per standard must gather information).
+* Detailed steps to reproduce the issue with screenshots (as per standard must-gather information).
 * Is the reported issue intermittent or does it happen every time the steps are followed?
-* Does the issue happen on one specific user machine, a group of machines or all machines?
-* If it is not all the machines, what is common to the affected machine/group that differs from the other machines where there is no issue?
-* Conversely - Is the issue reproducible on other machines with the same configuration?
+* Does the issue happen on one specific user computer, a group of computers or all computers?
+* If not all computers, what is common to the affected computer/group that differs from the other computer where there is no issue?
+* Conversely - Is the issue reproducible on other computer with the same configuration?
 * Provide computer-specific details on which the issue occurs:
  * Version of the operating system on the affected user computer.
  * Version of all JREs installed on the affected user computer.
@@ -23,9 +23,9 @@ Collect the following information to investigate issues that relate to your Micr
  * Exact version of Microsoft Word installed on the affected user computers. For example,  MS Word 2003 (11.8409.8405) SP3.
  * The privilege level of the Windows operating system user who performs the test scenario.
  
- Complete the follwing steps to enable logging:
+ Complete the following steps to enable logging:
  
 * Editing session trace log.
- * It is possible to create a trace log file on the user machine by setting the Control Panel -> Java -> Advanced -> Debugging -> Enable logging option.
- * If you enable logging in this way, the trace messages is output (in Microsoft Windows 7) to C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment.
+  * You can create a trace log file on a user computer by setting the Control Panel -> Java -> Advanced -> Debugging -> Enable logging option.
+  * If you enable logging in this way, the trace messages is output (in Microsoft Windows 7) to `C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment`.
 
