@@ -5,7 +5,7 @@
 
 ### Operating systems
 
-The Windows 10 (+11?) platform is supported for the design, development, testing and building of the application on a server.
+The Microsoft Windows platform is supported for the design, development, testing and building of the application on a server.
 
 #### Windows 11 Enterprise x86-64
 
@@ -31,7 +31,7 @@ The Windows 10 (+11?) platform is supported for the design, development, testing
 |-------|----|------------------|----------------|---------------------|-----------------|----|----|----|----|----|----|----|------|
 |64-Exploit|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 
-The Linux platform is supported building the application on a server.
+The Linux platform is supported for building the application on a server.
 
 #### Red Hat Enterprise Linux (RHEL) 8 x86-64
 
