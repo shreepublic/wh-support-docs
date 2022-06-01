@@ -27,5 +27,5 @@ Collect the following information to investigate issues that relate to your Micr
  
 * Editing session trace log.
   * You can create a trace log file on a user computer by setting the Control Panel -> Java -> Advanced -> Debugging -> Enable logging option.
-  * If you enable logging in this way, the trace messages is output (in Microsoft Windows 7) to `C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment`.
+  * If you enable logging in this way, the trace messages are output (in Microsoft Windows 7) to `C:\Users\<user_home>\AppData\LocalLow\Sun\Java\Deployment`.
 
