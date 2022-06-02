@@ -16,7 +16,7 @@ A known issue is raised by the IBM support team when a new problem (support case
 
 Log on to the support portal, navigate to Cases and open your case.  On the case page, if a known issue has been created, you will see it displayed at the side, as shown in the following diagram:
 
-image-20220412111023-1
+![This images shows the Case Page, where the known issues are displayed at the side of the page](../images/image-20220412111023-1.png?raw=true "Known issues shown on Case Page")
 
 ### How can you track known issues?
 
