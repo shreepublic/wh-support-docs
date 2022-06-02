@@ -1,10 +1,20 @@
-# IBM Cúram Social Program Management 8.0.2 Prerequisites and Supported Software
+# IBM Cúram Social Program Management 8.0.2
+
+* [Operating systems](#operating-systems)
+
+* [Prerequisites](#prerequisites)
+
+* [Supported software](#supported-software)
 
 ## Operating systems
 
-The Microsoft Windows platform is supported for the design, development, testing and building of the application on a server.
+* [Microsoft Windows](#microsoft-windows)
+
+* [Linux](#linux)
 
 ### Microsoft Windows
+
+The Microsoft Windows platform is supported for the design, development, testing and building of the application on a server.
 
 #### Windows 11 Enterprise x86-64
 
@@ -59,9 +69,23 @@ The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
 |Oracle Java SDK/JRE/JDK|8.0 and future fix packs|
 
 
-## Suppported software
+## Supported software
 
-### Accessibility (draft from UA)
+* [Accessibility](#accessibility)
+
+* [Application servers](#application-servers)
+
+* [Databases](#databases)
+
+* [Development Tools](#development-tools)
+
+* [Reporting and Analysis](#reporting-and-analysis)
+
+* [Web Browser Plug-Ins](#web-browser-plug-ins)
+
+* [Web browsers](#web-browsers)
+
+### Accessibility
 
 This accessibility software is supported.
 
@@ -105,7 +129,7 @@ This accessibility software is supported.
 
 
 
-### Web browsers (draft from UA)
+### Web browsers
 
 with the is developed for public-facing applications. Every effort was made to ensure that the application pages use standard web technologies and formats to be compatible with all browsers that are listed. However, the browsers that are listed in the following table are the only browsers that are officially supported.
 
