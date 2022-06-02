@@ -97,7 +97,17 @@ This accessibility software is supported.
 
 ### Application Servers
 
+For the supported operating systems and necessary configuration information for these application servers, see the [WebSphere Application Server product site](http://www.ibm.com/support/docview.wss?uid=swg27006921) or the [Oracle WebLogic Server product site](https://www.oracle.com/middleware/technologies/weblogic.html) documentation.
 
+Container and Kubernetes platforms are not supported on these application servers.
+
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|Oracle WebLogic Server 12cR2|(12.2.1) and future fix packs|The JDK (Java Development Kit) is supported and is forward compatible with higher JDK versions as supported by WebLogic Server. **Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
+|Oracle WebLogic Server 14c|(14.1.1.0.0) and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) is supported. **Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
+|WebSphere Application Server|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
+|WebSphere Application Server Network Deployment|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
+|WebSphere Application Server for z/OS|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
 
 ### Databases
 
