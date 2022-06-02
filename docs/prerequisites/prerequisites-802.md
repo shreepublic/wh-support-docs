@@ -137,7 +137,7 @@ It should also be noted that the development of the application is restricted to
 |Supported software|Version|Details|
 |------------------|-------|-------|
 |Apache Ant|1.10.6|Please note that only Apache Ant 1.10.6 is supported. Associated fix packs are not.|
-|Eclipse|4.18 and future fix packs|Eclipse 4.18.0 and higher maintenance releases. Servlet Containers/Application Servers: Apache Tomcat 9.0.50 , with Eclipse Tomcat Plugin 9.0.1. Java SE: IBM and Oracle Java SE JDK 8.0 and higher updates. Java EE: Oracle Java EE 6 and 7 and higher updates. |
+|Eclipse|4.18 and future fix packs|Eclipse 4.18.0 and [higher maintenance releases](https://www.eclipse.org/downloads/packages/release/Neon/3). Servlet Containers/Application Servers: Apache Tomcat [9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/), with [Eclipse Tomcat Plugin](https://sourceforge.net/projects/tomcatplugin/files/updatesite/plugins/) 9.0.1. Java SE: IBM and Oracle Java SE JDK 8.0 and [higher updates](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Java EE: Oracle Java EE 6 and 7 and [higher updates](http://www.oracle.com/technetwork/java/javaee/downloads/java-archive-downloads-eesdk-419427.html). |
 |Rational Software Architect Designer|9.5.0.1|Supported as a Modeling Environment. Servlet Containers/Application Servers: Apache Tomcat 9.0.50, with Eclipse Tomcat Plugin 9.0.1. Java SE: IBM and Oracle Java SE JDK 8.0 and higher updates. Java EE: Oracle Java EE 6 and 7 and higher updates.|
 
 
