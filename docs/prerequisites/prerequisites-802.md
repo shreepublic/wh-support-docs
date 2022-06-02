@@ -87,7 +87,7 @@ The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
 
 ### Accessibility
 
-This accessibility software is supported.
+The following accessibility software is supported. See the [Curam Social Program Management accessibility information](https://www.ibm.com/docs/en/spm/8.0.2?topic=overview-accessibility-in-social-program-management) for supported text resizing and browser zoom settings.
 
 |Supported software|Version|Browser|
 |------------------|-------|-------|
@@ -120,13 +120,13 @@ Database-as-a-Service or Container and Kubernetes Platforms are not supported on
 |DB2 Enterprise Server Edition|11.1.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.1. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
 ||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
 |DB2 Workgroup Server Edition|11.1.0 and future fix packs||
-|Db2 for z/OS|12.1 and future fix packs|When using SPM with Db2 for z/OS, the provided db2jcc4.jar file in the $CURAMSDEJ/drivers folder is used to access Db2 for z/OS whether access is local to z/OS or via a remote deployment. However, the level of Db2 for z/OS may have dependencies with the client JDBC driver level; therefore, see the IBM Data Server Driver for JDBC and SQLJ versions and DB2 for z/OS APARs page for supported Db2 and JDBC levels.|
+|Db2 for z/OS|12.1 and future fix packs|When using SPM with Db2 for z/OS, the provided db2jcc4.jar file in the $CURAMSDEJ/drivers folder is used to access Db2 for z/OS whether access is local to z/OS or via a remote deployment. However, the level of Db2 for z/OS may have dependencies with the client JDBC driver level; therefore, see the [IBM Data Server Driver for JDBC and SQLJ versions and DB2 for z/OS APARs](https://www.ibm.com/support/pages/node/405457) page for supported Db2 and JDBC levels.|
 |H2 Database|1.3.176|H2 is only supported for use in the development environment to aid application design, development and testing. The supported platforms are Windows 10. H2 is not supported for use with IBM Websphere Application Server or Oracle WebLogic Server. See the H2 site for further information and technical support. |
 |IBM Db2 Advanced Enterprise Server Edition|11.1.0 and future fix packs|Reporting: - SPM Reporting and Analytics is supported on DB2 version 11.1. - The SPM data warehouse can be built on this version of DB2. - Reporting ETLs can be built using a technology compatible with this version of DB2.|
 ||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
 |IBM Db2 Standard Edition VPC Option|11.5.5.0 and future fix packs||
 |Oracle Database 19c|(19.3) and future fix packs||
-||(19.3) Enterprise Edition and future fix packs|Reporting: <br />- Only the Enterprise Edition of Oracle Database 19c is supported for Curam Reporting.<br />- See the Oracle Database product site for certified configuration information on this product.<br />- Curam Reporting has been certified against Oracle 19c as a source database to host the Curam Application database and as a target database to host Reporting databases.|
+||(19.3) Enterprise Edition and future fix packs|Reporting: <br />- Only the Enterprise Edition of Oracle Database 19c is supported for Curam Reporting.<br />- See the [Oracle Database product site](https://www.oracle.com/database/) for certified configuration information on this product.<br />- Curam Reporting has been certified against Oracle 19c as a source database to host the Curam Application database and as a target database to host Reporting databases.|
 
 ### Development Tools
 
