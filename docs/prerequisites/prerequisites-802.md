@@ -103,22 +103,67 @@ Container and Kubernetes platforms are not supported on these application server
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
-|Oracle WebLogic Server 12cR2|(12.2.1) and future fix packs|The JDK (Java Development Kit) is supported and is forward compatible with higher JDK versions as supported by WebLogic Server. **Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
-|Oracle WebLogic Server 14c|(14.1.1.0.0) and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) is supported. **Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
+|Oracle WebLogic Server 12cR2|(12.2.1) and future fix packs|The JDK (Java Development Kit) is supported and is forward compatible with higher JDK versions as supported by WebLogic Server. <br />**Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
+|Oracle WebLogic Server 14c|(14.1.1.0.0) and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) is supported. <br />**Note:** Oracle Database is the only database that is supported for use with Oracle WebLogic Server.|
 |WebSphere Application Server|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
 |WebSphere Application Server Network Deployment|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
 |WebSphere Application Server for z/OS|9.0.5 and future fix packs|The JDK (Java Development Kit) version 8 (and future fix packs) supplied with the WebSphere Application Server installation is supported.|
 
 ### Databases
 
+For the supported operating systems and necessary configuration information for these application servers, see the product documentation. 
+
+Database-as-a-Service or Container and Kubernetes Platforms are not supported on these databases.
+
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|DB2 Enterprise Server Edition|11.1.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.1. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
+||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
+|DB2 Workgroup Server Edition|11.1.0 and future fix packs||
+|Db2 for z/OS|12.1 and future fix packs|When using SPM with Db2 for z/OS, the provided db2jcc4.jar file in the $CURAMSDEJ/drivers folder is used to access Db2 for z/OS whether access is local to z/OS or via a remote deployment. However, the level of Db2 for z/OS may have dependencies with the client JDBC driver level; therefore, see the IBM Data Server Driver for JDBC and SQLJ versions and DB2 for z/OS APARs page for supported Db2 and JDBC levels.|
+|H2 Database|1.3.176|H2 is only supported for use in the development environment to aid application design, development and testing. The supported platforms are Windows 10. H2 is not supported for use with IBM Websphere Application Server or Oracle WebLogic Server. See the H2 site for further information and technical support. |
+|IBM Db2 Advanced Enterprise Server Edition|11.1.0 and future fix packs|Reporting: - SPM Reporting and Analytics is supported on DB2 version 11.1. - The SPM data warehouse can be built on this version of DB2. - Reporting ETLs can be built using a technology compatible with this version of DB2.|
+||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
+|IBM Db2 Standard Edition VPC Option|11.5.5.0 and future fix packs||
+|Oracle Database 19c|9.0.5 and future fix packs||
+||(19.3) Enterprise Edition and future fix packs|Reporting: <br />- Only the Enterprise Edition of Oracle Database 19c is supported for Curam Reporting.<br />- See the Oracle Database product site for certified configuration information on this product.<br />- Curam Reporting has been certified against the following Oracle versions:<br /> Oracle 19c as a source database hosting the Curam Application database.<br /> Oracle 19c as a target database hosting Reporting databases.|
+
 ### Development Tools
+
+Although technical support is not provided for any Integrated Development Environment (IDE) it should be possible to use any Java IDE for development. Support for IDEs should be sought from the relevant software vendor. The following lists those IDEs which have been tested, and the use of which is described in documentation.
+
+It should also be noted that the development of the application is restricted to the Windows platform (Windows 7 and 10) and the tools listed below have only been tested on that platform.
+
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|Apache Ant|1.10.6|Please note that only Apache Ant 1.10.6 is supported. Associated fix packs are not.|
+|Eclipse|4.18 and future fix packs|Eclipse 4.18.0 and higher maintenance releases. Servlet Containers/Application Servers: Apache Tomcat 9.0.50 , with Eclipse Tomcat Plugin 9.0.1. Java SE: IBM and Oracle Java SE JDK 8.0 and higher updates. Java EE: Oracle Java EE 6 and 7 and higher updates. |
+|Rational Software Architect Designer|9.5.0.1|Supported as a Modeling Environment. Servlet Containers/Application Servers: Apache Tomcat 9.0.50, with Eclipse Tomcat Plugin 9.0.1. Java SE: IBM and Oracle Java SE JDK 8.0 and higher updates. Java EE: Oracle Java EE 6 and 7 and higher updates.|
 
 
 ### Reporting and Analysis
+	
+BIRT (Business Intelligent and Reporting Tools) is an (Eclipse) open source component which provides a development and execution environment for Curam Business Intelligence (BI) content.
+
+The use of a second Eclipse instance for BIRT development is recommended as standard Curam development often requires an Eclipse version that is not compatible with the certified BIRT development environment.
+
+See the Third Party Tools Guide and BIRT Developer Guide which provide a full explanation.
+
+Curam uses the all-in-one installation. For more information please see BIRT versions and platform support 
+
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|Apache Ant|1.10.6|Please note that only Apache Ant 1.10.6 is supported. Associated fix packs are not.|
+
 
 ### Web Browser Plug-Ins
 
-
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|Microsoft Word|2013 and future fix packs|Required for creating and editing Curam communication documents in Microsoft Word format. |
+||2016 and future fix packs||
+||2019 and future fix packs||
+|Oracle Java SDK/JRE/JDK|8.0 and future fix packs||
 
 ### Web browsers
 
