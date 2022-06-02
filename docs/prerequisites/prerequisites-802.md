@@ -125,8 +125,8 @@ Database-as-a-Service or Container and Kubernetes Platforms are not supported on
 |IBM Db2 Advanced Enterprise Server Edition|11.1.0 and future fix packs|Reporting: - SPM Reporting and Analytics is supported on DB2 version 11.1. - The SPM data warehouse can be built on this version of DB2. - Reporting ETLs can be built using a technology compatible with this version of DB2.|
 ||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
 |IBM Db2 Standard Edition VPC Option|11.5.5.0 and future fix packs||
-|Oracle Database 19c|9.0.5 and future fix packs||
-||(19.3) Enterprise Edition and future fix packs|Reporting: <br />- Only the Enterprise Edition of Oracle Database 19c is supported for Curam Reporting.<br />- See the Oracle Database product site for certified configuration information on this product.<br />- Curam Reporting has been certified against the following Oracle versions:<br /> Oracle 19c as a source database hosting the Curam Application database.<br /> Oracle 19c as a target database hosting Reporting databases.|
+|Oracle Database 19c|(19.3) and future fix packs||
+||(19.3) Enterprise Edition and future fix packs|Reporting: <br />- Only the Enterprise Edition of Oracle Database 19c is supported for Curam Reporting.<br />- See the Oracle Database product site for certified configuration information on this product.<br />- Curam Reporting has been certified against Oracle 19c as a source database to host the Curam Application database and as a target database to host Reporting databases.|
 
 ### Development Tools
 
@@ -147,9 +147,9 @@ BIRT (Business Intelligent and Reporting Tools) is an (Eclipse) open source comp
 
 The use of a second Eclipse instance for BIRT development is recommended as standard Curam development often requires an Eclipse version that is not compatible with the certified BIRT development environment.
 
-See the Third Party Tools Guide and BIRT Developer Guide which provide a full explanation.
+See the Development Environment Installation Guide and the BIRT Developer Guide  provide a full explanation.
 
-Curam uses the all-in-one installation. For more information please see BIRT versions and platform support 
+Curam uses the all-in-one installation. For more information, see [BIRT versions and platform support](https://download.eclipse.org/birt/downloads/drops/).
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
@@ -163,7 +163,7 @@ Curam uses the all-in-one installation. For more information please see BIRT ver
 |Microsoft Word|2013 and future fix packs|Required for creating and editing Curam communication documents in Microsoft Word format. |
 ||2016 and future fix packs||
 ||2019 and future fix packs||
-|Oracle Java SDK/JRE/JDK|8.0 and future fix packs||
+|Oracle Java SDK/JRE/JDK|8.0 and future fix packs|Oracle JRE 8.0 is required for Microsoft Word Integration. JRE 8.0 - the most recently released version tested is JRE 1.8 u331. Available as a free download from the [Oracle Java downloads page](https://www.oracle.com/java/technologies/downloads/here). |
 
 ### Web browsers
 
@@ -177,7 +177,7 @@ While every effort is made to ensure that internal case worker application pages
 
 #### Universal Access desktop browser support
 
-Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, the browsers, only the specified browsers are officially supported. For information about browser support for the Universal Access Responsive Web Application, see [add link].
+Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, the browsers, only the specified browsers are officially supported. For information about browser support for the Universal Access Responsive Web Application, see [Prerequisites and supported software](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software).
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
