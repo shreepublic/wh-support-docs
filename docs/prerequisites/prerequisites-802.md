@@ -124,14 +124,13 @@ While every effort is made to ensure that internal case worker application pages
 
 Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, the browsers, only the specified browsers are officially supported. For information about browser support for the Universal Access Responsive Web Application, see [add link].
 
-#### Tablet browser support
-
-Google Chrome 100 only is supported for tablet devices.
-
-
 |Supported software|Version|Details|
 |------------------|-------|-------|
 |Apple Safari|15 and future fix packs|This browser is supported only for the Universal Access application.|
 |Google Chrome|100 and future fix packs|This browser is supported for both the Universal Access and Case Worker applications. Microsoft Word Integration  and Arabic (RTL) are supported for this browser in the Case Worker application.|
 |Microsoft Edge|100 and future fix packs|This browser is supported only for the Universal Access application.|
 |Mozilla Firefox|99 and future fix packs|This browser is supported for both the Universal Access and Case Worker applications. Microsoft Word Integration  and Arabic (RTL) are supported for this browser in the Case Worker application.|
+
+#### Tablet browser support
+
+Google Chrome 100 and future fix packs are supported for tablet devices.
