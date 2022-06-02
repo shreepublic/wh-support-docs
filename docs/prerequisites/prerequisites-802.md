@@ -89,34 +89,15 @@ The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
 
 This accessibility software is supported.
 
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader|2020 and future fix packs|2020|No|11|
-|Apple VoiceOver|Any version and future fix packs|Any version|Any version|Microsoft Edge and [JAWS](http://www.freedomscientific.com/products/blindness/jaws) 2020 is the only certified screen reader and browser combination.
+|Supported software|Version|Browser|
+|------------------|-------|-------|
+|Freedom Scientific JAWS screen reader|2020 and future fix packs|Microsoft Edge and [JAWS](http://www.freedomscientific.com/products/blindness/jaws) 2020 is the only certified screen reader and browser combination.|
+|Apple VoiceOver|Any version and future fix packs|Google Chrome 100 and VoiceOver on iPad with iOS 15.4 is the certified combination for tablets.|
 
-|
-
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
-|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
-
-|
-
-|Supported software|Version|Prerequisite minimum|Operating system restrictions|Browser|
-|------------------|-------|--------------------|-----------------------------|-------|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.4.4\)|18 and future fix packs|18|No|11|
-|Freedom Scientific JAWS screen reader \(SPM 7.0.9.0\)|2018 and future fix packs|2018|No|11|
-|Apple VoiceOver|13.2.2 and future fix packs|13.2.2|No|Table accessibility is certified on iOS 113.2.2 with Chrome 78.
-
-|
-
-**Note:** The combination of Internet Explorer 11 and JAWS 2019 is the only certified screen reader and browser combination.
-
-**Note:** The combination of Internet Explorer 11 and JAWS 18 or 2018 is the only certified screen reader and browser combination.
 
 ### Application Servers
+
+
 
 ### Databases
 
@@ -131,38 +112,26 @@ This accessibility software is supported.
 
 ### Web browsers
 
-with the is developed for public-facing applications. Every effort was made to ensure that the application pages use standard web technologies and formats to be compatible with all browsers that are listed. However, the browsers that are listed in the following table are the only browsers that are officially supported.
+The minimum recommended resolution is 1366x768. The optimum DPI setting is Normal size.
 
-**Note:** The browser **Back** and **Forward** buttons, and browser refresh, are now supported on IEG pages in the . Information that is entered in IEG forms is now retained when the citizen clicks **Next** or goes back or forward through a form.
+Chrome, Firefox, Edge, and Safari release new versions frequently and install updates automatically by default. IBM Curam Social Program Management releases (V.R.M.F releases only) are generally tested on the latest version (for Chrome and Edge, stable releases only) of these browsers available at the start of the development cycle; if tested with no issues IBM will certify that version. The pre-requisites advise the version that is certified at each new product release. If for any reason, IBM Curam Social Program Management are unable to certify for that version, it may be necessary to revert back to a version that is previously fully certified. While IBM will support customers on newer versions of these browsers than the last certified version, they should understand that they have not been fully tested.
 
-Chrome, Firefox, Edge, and Safari release new versions more frequently than Internet Explorer, and they install updates automatically by default. releases are tested on the latest browser versions that are available at the start of the IBM development cycle.
+#### Standard desktop browser support
 
-**Note:** Only stable Chrome releases are tested.
+While every effort is made to ensure that internal case worker application pages use standard web technologies and formats that are compatible with all browsers, only the specified browsers are officially supported.
 
-If no issues result from the tests, IBM certifies the browser version.
+#### Universal Access desktop browser support
 
-For each new product release, the prerequisites list the version that is certified. If IBM cannot certify that version for any reason, you might need to revert to a previous version that is fully certified. While IBM supports customers who use newer versions of these browsers than the last certified version, customers must understand that the versions are not fully tested.
+Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, the browsers, only the specified browsers are officially supported. For information about browser support for the Universal Access Responsive Web Application, see [add link].
 
-|Supported software|Version|Operating system restrictions|
-|------------------|-------|-----------------------------|
-|Apple Safari|14 and future fix packs|No|
-|Google Chrome|91 and future fix packs|No|
-| |91 and future fix packs|No|
-| |11 and future fix packs|No|
-|Mozilla Firefox|89 and future fix packs|No|
+#### Tablet browser support
 
-|Supported software|Version|Operating system restrictions|
-|------------------|-------|-----------------------------|
-|Apple Safari|13 and future fix packs|No|
-|Google Chrome|78 and future fix packs|No|
-| |44 and future fix packs|No|
-| |11 and future fix packs|No|
-|Mozilla Firefox|70 and future fix packs|No|
+Google Chrome 100 only is supported for tablet devices.
 
-|Supported software|Version|Operating system restrictions|
-|------------------|-------|-----------------------------|
-|Apple Safari|13 and future fix packs|No|
-|Google Chrome|78 and future fix packs|No|
-| |44 and future fix packs|No|
-| |11 and future fix packs|No|
-|Mozilla Firefox|70 and future fix packs|No|
+
+|Supported software|Version|Details|
+|------------------|-------|-------|
+|Apple Safari|15 and future fix packs|This browser is supported only for the Universal Access application.|
+|Google Chrome|100 and future fix packs|This browser is supported for both the Universal Access and Case Worker applications. Microsoft Word Integration  and Arabic (RTL) are supported for this browser in the Case Worker application.|
+|Microsoft Edge|100 and future fix packs|This browser is supported only for the Universal Access application.|
+|Mozilla Firefox|99 and future fix packs|This browser is supported for both the Universal Access and Case Worker applications. Microsoft Word Integration  and Arabic (RTL) are supported for this browser in the Case Worker application.|
