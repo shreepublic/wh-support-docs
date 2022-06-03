@@ -28,6 +28,7 @@ IBM Watson Care Manager Reporting supports the following browsers:
 # Accessibility
 
 IBM Watson Care Manager supports the Freedom Scientific JAWS screen reader 19 and future fix packs. The combination of Jaws 19 and Mozilla Firefox is the only certified screen reader and browser combination.
-Support Policy Notes
+
+## Support Policy Notes
 
 Supported browsers are tested for compatibility by IBM. Always use one of the browsers listed here as other browsers are not tested. If you use a browser that is not listed and encounter an issue that requires IBM support, you might be required to test and reproduce the issue with a recommended browser to receive further support.
