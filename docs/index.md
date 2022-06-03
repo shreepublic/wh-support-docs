@@ -8,6 +8,13 @@ Previously published support documentation is still available at [Watson Health 
 
 * [Support articles](technotes/technotes.md)
 
+* [PDF documentation](pdfs/pdfs.md)
+
+* [Product videos](videos/videos.md)
+
 * [Prerequisites and supported software](prerequisites/prerequisites-software.md)
 
 * [Release notes](release-notes/release-notes.md)
+
+
+
