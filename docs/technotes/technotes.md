@@ -1,5 +1,9 @@
 # Technical support articles
 
+New and updated support articles after June 30 are published on this site.
+
+Previously published articles are still available at: <link TBD>
+
 ## Support articles for IBM Social Program Management.
 
 ### Latest
