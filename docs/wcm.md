@@ -6,6 +6,8 @@ Previously published support documentation is still available at [Watson Health 
 
 * [Coming soon in Watson Care Manager](wcm/wcm-coming-soon.md)
 
+* [Watson Care Manager system requirements](wcm/wcm-requirements.md)
+
 * [Release notes](wcm/wcm-release-notes.md)
 
 * [Product videos](wcm/wcm_videos.md)
