@@ -2,7 +2,7 @@
 
 In addition to the online documentation, you can read the IBM Cúram Social Program Management product documentation in PDF format.
 
-The IBM Universal Access Responsive Web Application and IBM Social Program Management Design System are released more frequently than the IBM Cúram Social Program Management platform, and have their own version numbering scheme.
+The _IBM Universal Access Responsive Web Application_ and _IBM Social Program Management Design System_ are released more frequently than the IBM Cúram Social Program Management platform, and have their own version numbering scheme.
 
 <!-- **Note:** If the following links don't work in Google Chrome, try another browser, such as Mozilla Firefox.-->
 
