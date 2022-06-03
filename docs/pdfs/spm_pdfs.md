@@ -8,7 +8,7 @@ The _IBM Universal Access Responsive Web Application_ and _IBM Social Program Ma
 
 ## IBM Cúram Social Program Management PDFs
 
-* IBM Cúram Version 8.0.0 PDFs [(Download 60MB)](http://public.dhe.ibm.com/software/solutions/curam/8.0.0/IBM_Curam_Social_Program_Management_800_PDFs.zip)
+* IBM Cúram Version 8.0.0 PDFs [(Download 60 MB)](http://public.dhe.ibm.com/software/solutions/curam/8.0.0/IBM_Curam_Social_Program_Management_800_PDFs.zip)
 
 ## IBM Social Program Management Design System PDFs
 
