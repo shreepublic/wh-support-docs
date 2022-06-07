@@ -13,5 +13,4 @@ Previously published support documentation is still available at [Watson Health 
 * [Product videos](wcm/wcm_videos.md)
 
 * [Technotes for Watson Care Manager](wcm/wcm_technotes.md)
-
-
+  

@@ -1,6 +1,5 @@
 # IBM Watson Care Manager System Requirements
 
-
 ## Supported Browsers
 
 IBM Watson Care Manager is a SaaS product and the only software requirement is a supported browser.
@@ -15,7 +14,6 @@ IBM Watson Care Manager supports the following browsers:
 * Mozilla Firefox current (non-beta)
 * Microsoft Internet Explorer 11. In line with Microsoft's end of support announcement for Internet Explorer 11, support for Watson Care Manager on this browser will be discontinued from 15 June  2022.
 
-
 IBM Watson Care Manager Reporting supports the following browsers:
 
 * Apple Safari 11
@@ -23,9 +21,7 @@ IBM Watson Care Manager Reporting supports the following browsers:
 * Google Chrome current (non-beta)
 * Microsoft Internet Explorer 11. In line with Microsoft's end of support announcement for Internet Explorer 11, support for Watson Care Manager on this browser will be discontinued from 15 June 2022.
 
-     
-
-# Accessibility
+## Accessibility
 
 IBM Watson Care Manager supports the Freedom Scientific JAWS screen reader 19 and future fix packs. The combination of Jaws 19 and Mozilla Firefox is the only certified screen reader and browser combination.
 

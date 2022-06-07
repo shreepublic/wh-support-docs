@@ -7,6 +7,3 @@ Previously published support documentation is still available at [Watson Health 
 * [IBM Curam Social Program Management](spm.md)
 
 * [IBM Watson Care Manager](wcm.md)
-
-
-

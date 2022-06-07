@@ -12,7 +12,6 @@ The videos include deep dive presentations that demonstrate, through scenarios, 
 
 * [Caseworker and developer productivity improvements deep dive](https://mediacenter.ibm.com/media/t/1_03sinzqw)
 
-
 ## Version 8.0.0
 
     Introduction to V8.0.0 – caseworker productivity
@@ -71,4 +70,3 @@ The videos include deep dive presentations that demonstrate, through scenarios, 
     Universal Access deep dive: appeals and notices functionality
     Universal Access deep dive: new life events functionality
     Universal Access deep dive: new screening functionality
-
