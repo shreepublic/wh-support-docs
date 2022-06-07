@@ -7,4 +7,5 @@ This page contains links to videos to help you to get started.
 * [Signing in to IBM Watson Care Manager where your organization enabled multi-factor authentication and managing your Watson Care Manager account](https://mediacenter.ibm.com/media/Signing+in+to+IBM+Watson+Care+Manager+where+your+organization+enabled+multi-factor+authentication+and+managing+your+Watson+Care+Manager+account/1_h4mz2z6l)
 
 ## Show and tell videos
+
 See our [show and tell video series](https://www.ibm.com/support/pages/node/6343209) that highlights the latest enhancements in Watson Care Manager.

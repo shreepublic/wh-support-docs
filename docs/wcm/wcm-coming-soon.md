@@ -12,11 +12,11 @@ Read about new features and changes that are coming soon in your next update of 
 
 ## Introduction
 
-To help you to prepare for upcoming releases, we are excited to give you a preview of what is coming soon in Watson Care Manager. 
+To help you to prepare for upcoming releases, we are excited to give you a preview of what is coming soon in Watson Care Manager.
 
-When configuring assessments, you will be able to reuse questions across assessment measures and apply unique scoring to a question dependent on the measure it is associated with. 
+When configuring assessments, you will be able to reuse questions across assessment measures and apply unique scoring to a question dependent on the measure it is associated with.
 
-Previously, Cognos was used to run reports. Now, in addition to Cognos, WCM Reporting is introducing a bring-your-own-tool (BYOT) solution which will allow you to use your chosen Business Intelligence (BI) tooling. 
+Previously, Cognos was used to run reports. Now, in addition to Cognos, WCM Reporting is introducing a bring-your-own-tool (BYOT) solution which will allow you to use your chosen Business Intelligence (BI) tooling.
 
 To watch a video that highlights the enhancements that are coming soon, see our [June Show and Tell video](https://www.ibm.com/support/pages/node/6343209).
 
