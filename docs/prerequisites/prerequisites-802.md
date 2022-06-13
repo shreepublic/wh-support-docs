@@ -87,7 +87,9 @@ The supported platforms for the IBM Cúram SPM installers are Linux and Windows.
 
 ### Accessibility
 
-The following accessibility software is supported. See the [Curam Social Program Management accessibility information](https://www.ibm.com/docs/en/spm/8.0.2?topic=overview-accessibility-in-social-program-management) for supported text resizing and browser zoom settings.
+The following accessibility software is supported. 
+
+<!--See the [Curam Social Program Management accessibility information](https://www.ibm.com/docs/en/spm/8.0.2?topic=overview-accessibility-in-social-program-management) for supported text resizing and browser zoom settings.-->
 
 |Supported software|Version|Browser|
 |------------------|-------|-------|
@@ -111,15 +113,15 @@ Container and Kubernetes platforms are not supported on these application server
 
 ### Databases
 
-For the supported operating systems and necessary configuration information for these application servers, see the product documentation. 
+For the supported operating systems and necessary configuration information for these database, see the database product documentation. 
 
-Database-as-a-Service or Container and Kubernetes Platforms are not supported on these databases.
+Database-as-a-Service or Container and Kubernetes platforms are not supported on these databases.
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
-|DB2 Enterprise Server Edition|11.1.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.1. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
+|Db2 Enterprise Server Edition|11.1.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.1. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
 ||11.5.5.0 and future fix packs|Reporting: <br />- SPM Reporting and Analytics is supported on DB2 version 11.5.5.0. <br />- The SPM data warehouse can be built on this version of DB2. <br />- Reporting ETLs can be built using a technology compatible with this version of DB2.|
-|DB2 Workgroup Server Edition|11.1.0 and future fix packs||
+|Db2 Workgroup Server Edition|11.1.0 and future fix packs||
 |Db2 for z/OS|12.1 and future fix packs|When using SPM with Db2 for z/OS, the provided db2jcc4.jar file in the $CURAMSDEJ/drivers folder is used to access Db2 for z/OS whether access is local to z/OS or via a remote deployment. However, the level of Db2 for z/OS may have dependencies with the client JDBC driver level; therefore, see the [IBM Data Server Driver for JDBC and SQLJ versions and DB2 for z/OS APARs](https://www.ibm.com/support/pages/node/405457) page for supported Db2 and JDBC levels.|
 |H2 Database|1.3.176|H2 is only supported for use in the development environment to aid application design, development and testing. The supported platforms are Windows 10. H2 is not supported for use with IBM Websphere Application Server or Oracle WebLogic Server. See the H2 site for further information and technical support. |
 |IBM Db2 Advanced Enterprise Server Edition|11.1.0 and future fix packs|Reporting: - SPM Reporting and Analytics is supported on DB2 version 11.1. - The SPM data warehouse can be built on this version of DB2. - Reporting ETLs can be built using a technology compatible with this version of DB2.|
