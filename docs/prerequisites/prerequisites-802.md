@@ -145,11 +145,11 @@ It should also be noted that the development of the application is restricted to
 
 ### Reporting and Analysis
 	
-BIRT (Business Intelligent and Reporting Tools) is an (Eclipse) open source component which provides a development and execution environment for Curam Business Intelligence (BI) content.
+Eclipse Business Intelligent and Reporting Tools (BIRT) is an open source component that provides a development and execution environment for Curam Business Intelligence (BI) content.
 
 The use of a second Eclipse instance for BIRT development is recommended as standard Curam development often requires an Eclipse version that is not compatible with the certified BIRT development environment.
 
-See the Development Environment Installation Guide and the BIRT Developer Guide  provide a full explanation.
+For more information, see the Development Environment Installation Guide and the BIRT Developer Guide.
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
@@ -169,15 +169,18 @@ See the Development Environment Installation Guide and the BIRT Developer Guide 
 
 The minimum recommended resolution is 1366x768. The optimum DPI setting is Normal size.
 
-Chrome, Firefox, Edge, and Safari release new versions frequently and install updates automatically by default. IBM Curam Social Program Management releases (V.R.M.F releases only) are generally tested on the latest version (for Chrome and Edge, stable releases only) of these browsers available at the start of the development cycle; if tested with no issues IBM will certify that version. The pre-requisites advise the version that is certified at each new product release. If for any reason, IBM Curam Social Program Management are unable to certify for that version, it may be necessary to revert back to a version that is previously fully certified. While IBM will support customers on newer versions of these browsers than the last certified version, they should understand that they have not been fully tested.
+Chrome, Firefox, Edge, and Safari release new versions frequently and install updates automatically by default. IBM Curam Social Program Management releases (V.R.M.F releases only) are generally tested on the latest version (for Chrome and Edge, stable releases only) of these browsers available at the start of the development cycle; if tested with no issues IBM will certify that version. The prerequisites advise the version that is certified at each new product release. If for any reason, IBM Curam Social Program Management are unable to certify for that version, it may be necessary to revert back to a version that is previously fully certified. While IBM will support customers on newer versions of these browsers than the last certified version, they should understand that they have not been fully tested.
 
 #### Standard desktop browser support
 
-While every effort is made to ensure that internal case worker application pages use standard web technologies and formats that are compatible with all browsers, only the specified browsers are officially supported.
+While every effort is made to ensure that internal case worker application pages use standard web technologies and formats that are compatible with all browsers, only the listed browsers are officially supported.
 
 #### Universal Access desktop browser support
 
-Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, the browsers, only the specified browsers are officially supported. For information about browser support for the Universal Access Responsive Web Application, see [Prerequisites and supported software](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software).
+Universal Access has been specifically developed for public facing applications so browser support has been extended in this area. 
+
+* For information about browser support for the Universal Access Responsive Web Application, see [Prerequisites and supported software](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software).
+* While every effort is made to ensure that the classic Universal Access application uses standard web technologies and formats that are compatible with all browsers, only the listed browsers are officially supported. 
 
 |Supported software|Version|Details|
 |------------------|-------|-------|
