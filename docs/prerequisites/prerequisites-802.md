@@ -151,11 +151,9 @@ The use of a second Eclipse instance for BIRT development is recommended as stan
 
 See the Development Environment Installation Guide and the BIRT Developer Guide  provide a full explanation.
 
-Curam uses the all-in-one installation. For more information, see [BIRT versions and platform support](https://download.eclipse.org/birt/downloads/drops/).
-
 |Supported software|Version|Details|
 |------------------|-------|-------|
-|Apache Ant|1.10.6|Please note that only Apache Ant 1.10.6 is supported. Associated fix packs are not.|
+|Eclipse Business Intelligence and Reporting Tools|4.8.0 and future fix packs|Curam uses the all-in-one installation. For more information, see [BIRT versions and platform support](https://download.eclipse.org/birt/downloads/drops/).|
 
 
 ### Web Browser Plug-Ins
