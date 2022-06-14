@@ -4,6 +4,8 @@ From July 1 2022 onwards, new security, support, and installation information fo
 
 Previously published support documentation is still available at [Watson Health Support](https://ibmwatsonhealth.force.com/mysupport).
 
+* [Software downloads](software-downloads/software-downloads.md)
+
 * [Security bulletins](security/security.md)
 
 * [Support articles](technotes/technotes.md)
