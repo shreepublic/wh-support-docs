@@ -63,15 +63,15 @@ For information about prerequisites for the IBM Universal Access Responsive Web 
 
 ## 7.0.7.0
 
-  * [Windows operating systems7.0.7.0 RP](../pdfs/7070RP-windows.pdf)
+  * [Windows operating systems 7.0.7.0 RP](../pdfs/7070RP-windows.pdf)
   * [Linux operating systems 7.0.7.0 RP](../pdfs/7070RP-linux.pdf)
   * [Prerequisites and supported software 7.0.7.0 RP](../pdfs/7070RP-software.pdf)
 
 ## 7.0.6.0
 
-  * [Windows operating systems 7.0.6.0 RP](../pdfs/7090RP-windows.pdf)
-  * [Linux operating systems 7.0.6.0 RP](../pdfs/7090RP-linux.pdf)
-  * [Prerequisites and supported software 7.0.6.0 RP](../pdfs/7090RP-software.pdf)
+  * [Windows operating systems 7.0.6.0 RP](../pdfs/7060RP-windows.pdf)
+  * [Linux operating systems 7.0.6.0 RP](../pdfs/7060RP-linux.pdf)
+  * [Prerequisites and supported software 7.0.6.0 RP](../pdfs/7060RP-software.pdf)
 
 ## 7.0.5.0
 
