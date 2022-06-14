@@ -21,24 +21,28 @@ For information about prerequisites for the IBM Universal Access Responsive Web 
   * [Windows operating systems 8.0.1.0 CD](../pdfs/8010CD-windows.pdf)
   * [Linux operating systems 8.0.1.0 CD](../pdfs/8010CD-linux.pdf)
   * [Prerequisites and supported software 8.0.1.0 CD](../pdfs/8010CD-software.pdf)
+  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 8.0.0
 
   * [Windows operating systems 8.0.0](../pdfs/8000-windows.pdf)
   * [Linux operating systems 8.0.0](../pdfs/8000-linux.pdf)
   * [Prerequisites and supported software 8.0.0](../pdfs/8000-software.pdf)
+  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.11.0
 
   * [Windows operating systems 7.0.11.0 RP](../pdfs/70110RP-windows.pdf)
   * [Linux operating systems 7.0.11.0 RP](../pdfs/70110RP-linux.pdf)
   * [Prerequisites and supported software 7.0.11.0 RP](../pdfs/70110RP-software.pdf)
+  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.10.0
 
   * [Windows operating systems 7.0.10.0](../pdfs/70100-windows.pdf)
   * [Linux operating systems 7.0.10.0](../pdfs/70100-linux.pdf)
   * [Prerequisites and supported software 7.0.10.0](../pdfs/70100-software.pdf)
+  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.9.0
 
