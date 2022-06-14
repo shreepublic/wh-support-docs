@@ -10,7 +10,7 @@ There are additional prerequisites for deployment of IBM Cúram Social Program M
 
 * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
-## Universal Access Responsive Web Application and the Social Program Management Design System
+### Universal Access Responsive Web Application and the Social Program Management Design System
 
 For information about prerequisites for the Universal Access Responsive Web Application and the Social Program Management Design System assets and compatability with Social Program Management versions, see the asset documentation.
 
