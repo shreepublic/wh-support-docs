@@ -6,8 +6,6 @@ Before you install or upgrade IBM Cúram Social Program Management, review the o
 
 * [8.0.2 operating systems and supported software](prerequisites-802.md)
 
-### Additional prerequisites
-
 There are additional prerequisites for deployment of IBM Cúram Social Program Management on cloud native hosting platforms. For information about deploying Cúram on IBM Cloud Kubernetes Services (IKS) or OpenShift, see the information about prerequisite software in the IBM Cúram SPM on Kubernetes Runbook.
 
 * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
