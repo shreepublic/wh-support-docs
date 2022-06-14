@@ -2,7 +2,7 @@
 
 Before you install or upgrade IBM Cúram Social Program Management, review the operating systems, prerequisites and supported software to ensure compatibility.
 
-## 8.0.2
+## 8.0.2 operating systems and supported software
 
 * [8.0.2](prerequisites-802.md)
 
