@@ -18,24 +18,17 @@ For information about prerequisites for the IBM Universal Access Responsive Web 
 
 * [IBM Social Program Management Design System prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=system-prerequisites-supported-software) 
 
-## 8.0.0
-
-  * [Windows operating systems 8.0.0](../pdfs/8000-windows.pdf)
-  * [Linux operating systems 8.0.0](../pdfs/8000-linux.pdf)
-  * [Prerequisites and supported software 8.0.0](../pdfs/8000-software.pdf)
-
-
 ## 8.0.1.0
 
   * [Windows operating systems 8.0.1.0 CD](../pdfs/8010CD-windows.pdf)
   * [Linux operating systems 8.0.1.0 CD](../pdfs/8010CD-linux.pdf)
   * [Prerequisites and supported software 8.0.1.0 CD](../pdfs/8010CD-software.pdf)
 
-## 8.0.2.0
+## 8.0.0
 
-  * [Windows operating systems 8.0.2.0 CD](../pdfs/8020CD-windows.pdf)
-  * [Linux operating systems 8.0.2.0 CD](../pdfs/8020CD-linux.pdf)
-  * [Prerequisites and supported software 8.0.2.0 CD](../pdfs/8020CD-software.pdf)
+  * [Windows operating systems 8.0.0](../pdfs/8000-windows.pdf)
+  * [Linux operating systems 8.0.0](../pdfs/8000-linux.pdf)
+  * [Prerequisites and supported software 8.0.0](../pdfs/8000-software.pdf)
 
 ## 7.0.11.0
 
