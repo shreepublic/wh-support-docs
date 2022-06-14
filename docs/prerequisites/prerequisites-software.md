@@ -150,21 +150,21 @@ For information about prerequisites for the IBM Universal Access Responsive Web 
 
 ## 7.0.1.0
 
-  * [Windows operating systems 7.0.1.0 CD](../pdfs/7010CD-windows.pdf)
-  * [Linux operating systems 7.0.1.0 CD](../pdfs/7010CD-linux.pdf)
-  * [Prerequisites and supported software 7.0.1.0 CD](../pdfs/7010CD-software.pdf)
+  * [Windows operating systems 7.0.1.0](../pdfs/7010-windows.pdf)
+  * [Linux operating systems 7.0.1.0](../pdfs/7010-linux.pdf)
+  * [Prerequisites and supported software 7.0.1.0](../pdfs/7010-software.pdf)
 
 ## 7.0.0.2
 
-  * [Windows operating systems 7.0.0.2 CD](../pdfs/7002CD-windows.pdf)
-  * [Linux operating systems 7.0.0.2 CD](../pdfs/7002CD-linux.pdf)
-  * [Prerequisites and supported software 7.0.0.2 CD](../pdfs/7002CD-software.pdf)
+  * [Windows operating systems 7.0.0.2](../pdfs/7002-windows.pdf)
+  * [Linux operating systems 7.0.0.2](../pdfs/7002-linux.pdf)
+  * [Prerequisites and supported software 7.0.0.2](../pdfs/7002-software.pdf)
 
 ## 7.0.0.1
 
-  * [Windows operating systems 7.0.0.1 CD](../pdfs/7001CD-windows.pdf)
-  * [Linux operating systems 7.0.0.1 CD](../pdfs/7001CD-linux.pdf)
-  * [Prerequisites and supported software 7.0.0.1 CD](../pdfs/7001CD-software.pdf)
+  * [Windows operating systems 7.0.0.1](../pdfs/7001-windows.pdf)
+  * [Linux operating systems 7.0.0.1](../pdfs/7001-linux.pdf)
+  * [Prerequisites and supported software 7.0.0.1](../pdfs/7001-software.pdf)
 
 ## 7.0.0
 
