@@ -1,50 +1,50 @@
 # Prerequisites and supported software
 
-Before you install or upgrade IBM Cúram Social Program Management, review the operating systems, prerequisites and supported software to ensure compatibility.
+Before you install or upgrade Cúram Social Program Management, review the operating systems, prerequisites and supported software to ensure compatibility.
 
 ## 8.0.2 
 
 * [8.0.2 operating systems and supported software](prerequisites-802.md)
 
-Additional prerequisites are needed for deployment of IBM Cúram Social Program Management on cloud native hosting platforms. For information about deploying Cúram on IBM Cloud Kubernetes Services (IKS) or OpenShift, see the prerequisites in the Kubernetes Runbook.
+Additional prerequisites are needed to deploy of Cúram Social Program Management on cloud native hosting platforms. For information about deploying Cúram on IBM Cloud Kubernetes Services (IKS) or OpenShift, see the prerequisites in the Kubernetes Runbook.
 
-* [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
+* [Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ### Universal Access Responsive Web Application and the Social Program Management Design System
 
 For information about prerequisites for the Universal Access Responsive Web Application and the Social Program Management Design System assets and compatability with Social Program Management versions, see the asset documentation.
 
-* [IBM Universal Access Responsive Web Application prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software)
+* [Universal Access Responsive Web Application prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software)
 
-* [IBM Social Program Management Design System prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=system-prerequisites-supported-software) 
+* [Social Program Management Design System prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=system-prerequisites-supported-software) 
 
 ## 8.0.1.0
 
   * [Windows operating systems 8.0.1.0 CD](../pdfs/8010CD-windows.pdf)
   * [Linux operating systems 8.0.1.0 CD](../pdfs/8010CD-linux.pdf)
   * [Prerequisites and supported software 8.0.1.0 CD](../pdfs/8010CD-software.pdf)
-  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
+  * [Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 8.0.0
 
   * [Windows operating systems 8.0.0](../pdfs/8000-windows.pdf)
   * [Linux operating systems 8.0.0](../pdfs/8000-linux.pdf)
   * [Prerequisites and supported software 8.0.0](../pdfs/8000-software.pdf)
-  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
+  * [Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.11.0
 
   * [Windows operating systems 7.0.11.0 RP](../pdfs/70110RP-windows.pdf)
   * [Linux operating systems 7.0.11.0 RP](../pdfs/70110RP-linux.pdf)
   * [Prerequisites and supported software 7.0.11.0 RP](../pdfs/70110RP-software.pdf)
-  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
+  * [Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.10.0
 
   * [Windows operating systems 7.0.10.0](../pdfs/70100-windows.pdf)
   * [Linux operating systems 7.0.10.0](../pdfs/70100-linux.pdf)
   * [Prerequisites and supported software 7.0.10.0](../pdfs/70100-software.pdf)
-  * [IBM Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
+  * [Cúram Social Program Management on Kubernetes prerequisites](https://ibm.github.io/spm-kubernetes/prereq/prereq)
 
 ## 7.0.9.0
 
