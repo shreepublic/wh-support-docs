@@ -1,6 +1,6 @@
 # Merative software download process
 
-In the short term, while we create the new Merative support experience, you can download software such as iFixes, Testfixes, and maintenance releases from a shared Microsoft SharePoint folder. You must request access for each person in your organization who needs to download Merative software.
+In the short term, you can download software such as iFixes, Testfixes, and maintenance releases from a shared Microsoft SharePoint folder. You must request access for each person in your organization who needs to download Merative software.
 
 ## Requesting access to the Merative software downloads folder
 
