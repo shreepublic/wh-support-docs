@@ -12,7 +12,8 @@ Additional prerequisites are needed to deploy of Cúram Social Program Managemen
 
 ### Universal Access Responsive Web Application and the Social Program Management Design System
 
-For information about prerequisites for the Universal Access Responsive Web Application and the Social Program Management Design System assets and compatability with Social Program Management versions, see the asset documentation.
+For information about prerequisites for the Universal Access Responsive Web Application and the Social Program Management Design System assets and 
+compatibility with Social Program Management versions, see the asset documentation.
 
 * [Universal Access Responsive Web Application prerequisites](https://www.ibm.com/docs/en/spm/8.0.2?topic=server-prerequisites-supported-software)
 
