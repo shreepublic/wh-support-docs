@@ -1,6 +1,6 @@
 # Watson Health software download process - Draft
 
-From July 1 2022, you can download new Watson Health software from a shared Microsoft SharePoint folder. You must request access for each person in your organization who needs to download Watson Health software.
+In the short term, from July 1 2022 you can download new Watson Health software from a shared Microsoft SharePoint folder. You must request access for each person in your organization who needs to download Watson Health software.
 
 ## Requesting access to the Watson Health software downloads folder
 
