@@ -19,5 +19,5 @@ In the short term, from July 1 2022 you can download new Watson Health software 
 5.	You are redirected to the **Watson Health Downloads** folder. The **Downloads** folder contains the following Watson Health software releases for Social Program Management:
     * **SPM_v8** - Social Program Management iFix and Long Term Support (LTS) fix pack releases on the v8 line.
     * **SPM_v7** - Social Program Management iFix releases on the v7 line.
-    * **SPM_ToolsAndAssets** - Supported assets and tooling for the Social Program Management product.
+    * **SPM_ToolsAndAssets** - Supported software assets and tools for the Social Program Management product.
 6.	To download software, open a folder, right-click an item, select **Download**, and save the item to your local computer or another location as needed. <!-- ![This image shows the Sharepoint download file menu](../images/sharepoint-download.png?raw=true "Verify your identity page")-->
