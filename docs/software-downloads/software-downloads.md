@@ -30,5 +30,4 @@ From July 1 2022, you can download new Watson Health software from a shared Micr
 6.	To download software, select a folder, right-click an item, and select **Download**.
 
    <!-- ![This image shows the Sharepoint download file menu](../images/sharepoint-download.png?raw=true "Verify your identity page")-->
-
 7.	Save the item to your local computer or another location as needed.
