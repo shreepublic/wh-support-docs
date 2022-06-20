@@ -4,7 +4,7 @@ module.exports = {
     description: 'New support docs for the Social Programs portfolio',
     keywords: 'wh,docs',
   },
-  pathPrefix: ``,
+  pathPrefix: `/wh-support-docs`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
