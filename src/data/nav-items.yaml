@@ -1,19 +1,17 @@
 - title: IBM Curam Social Program Management
   pages:
-    - title: Coming soon
-      path: /spm/software-downloads
-    - title: Security bulletins
-      path: /spm/security-bulletins
-    - title: Support articles
-      path: /spm/support-articles
     - title: PDF documentation
       path: /spm/pdf-documentation
-    - title: Release notes
-      path: /spm/release-notes
     - title: Product videos
       path: /spm/product-videos
     - title: Prerequisites
       path: /spm/prerequisites
+    - title: Release notes
+      path: /spm/release-notes
+    - title: Security bulletins
+      path: /spm/security-bulletins
+    - title: Support articles
+      path: /spm/support-articles
 - title: IBM Watson Care Manager
   pages:
     - title: Coming soon
