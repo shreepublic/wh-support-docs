@@ -1,0 +1,28 @@
+{
+  "name": "wh-support-docs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curam-spm-devops/wh-support-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/curam-spm-devops/wh-support-docs/issues"
+  },
+  "homepage": "https://github.com/curam-spm-devops/wh-support-docs#readme",
+  "scripts": {
+    "dev": "gatsby develop -H 0.0.0.0",
+    "dev:clean": "gatsby clean && gatsby develop -H 0.0.0.0",
+    "build": "gatsby build",
+    "build:clean": "yarn clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.3.1",
+    "gatsby-theme-carbon": "^2.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
