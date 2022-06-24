@@ -1,9 +1,13 @@
 - title: Curam Social Program Management
   pages:
+    - title: Overview
+      path: /spm/overview
     - title: Product documentation
       path: /spm/pdf-documentation
 - title: Watson Care Manager
   pages:
+    - title: Overview
+      path: /wcm/overview
     - title: Release notes
       path: /wcm/release-notes
     - title: Coming soon
@@ -14,3 +18,5 @@
       path: /wcm/videos
     - title: Technotes
       path: /wcm/technotes
+    - title: Product documentation
+      path: /wcm/product-documentation
