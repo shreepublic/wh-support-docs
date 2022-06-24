@@ -3,7 +3,7 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Support website',
+    title: 'Support Community',
     href: 'https://ibmwatsonhealth.force.com/mysupport/s/?language=en_US',
   },
 ];

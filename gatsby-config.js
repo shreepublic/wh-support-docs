@@ -20,14 +20,6 @@ module.exports = {
     },
     {
       resolve: 'gatsby-theme-carbon',
-      options: {
-        mediumAccount: 'carbondesign',
-        isSwitcherEnabled: false,
-        repository: {
-          baseUrl:
-            'https://github.com/curam-spm-devops/wh-support-docs',
-        },
-      },
     },
   ],
 };
