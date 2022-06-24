@@ -3,12 +3,8 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Docs for Social Program Management',
-    href: 'https://www.ibm.com/docs/en/spm/8.0.2',
-  },
-  {
-    title: 'Docs for Watson Care Manager',
-    href: 'https://www.ibm.com/docs/en/watson-care-manager',
+    title: 'Support website',
+    href: 'https://ibmwatsonhealth.force.com/mysupport/s/?language=en_US',
   },
 ];
 
