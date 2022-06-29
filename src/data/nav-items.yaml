@@ -4,6 +4,8 @@
       path: /spm/overview
     - title: Product documentation
       path: /spm/pdf-documentation
+    - title: Release notes
+      path: /spm/release-notes      
 - title: Watson Care Manager
   pages:
     - title: Overview
