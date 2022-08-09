@@ -1,23 +1,27 @@
 # Support docs transition site
+
 Here you'll find transitional support documentation for the Social Programs portfolio.
 
 ## Installation instructions
 
-Clone this repository 
+Clone this repository.
 
 ### Requirements
 
 node.js - version 14.17.6 [^1]
 
-[^1]: It is recommended to install node using [Node Version Manager](https://github.com/nvm-sh/nvm).
+[^1]: It is recommended to install node using [Node Version Manager](https://github.com/nvm-sh/nvm)
+Mac: See the 'Troubleshooting on macOS' section, you might need to create a bash profile (see related bullet)
 
 ### Install dependencies
+
 ```console
   npm install
 ```
 
 ### Running the site locally
-Run `npm run dev` to build the site.
+
+Run `npm run dev` to build the site. (In VSC, open a new terminal window - change it to a bash window for the run command to work)
 
 After the command completes, the site will be accessible at `http://localhost:8000/` in your browser.
 
@@ -25,3 +29,13 @@ After the command completes, the site will be accessible at `http://localhost:80
 
 The content is automatically managed and deployed on the `gh-pages` branch by the deploy GitHub Actions *Deploy* workflow.
 The deployed site is viewable at [https://curam-spm-devops.github.io/wh-support-docs/](https://curam-spm-devops.github.io/wh-support-docs/).
+
+## Lint and mdx files
+
+In VSC, install the markdownlint extension, then open the markdownlint extension settings and edit the json config to insert mdx:
+
+```"files.associations": {
+ "*.md": "markdown",
+ "*.mdx": "markdown"
+},
+```
