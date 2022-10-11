@@ -1,9 +1,19 @@
-- title: Curam Social Program Management
+- title: Merative Social Program Management
   pages:
     - title: Overview
       path: /spm/overview
     - title: Product documentation
       path: /spm/pdf-documentation
+      pages:
+        - title: Social Program Management 8.0.3
+          path: /spm/spm_803
+          pages:
+            - title: Download 
+              path: /spm/spm_803_download
+            - title: Release notes 
+              path: /spm/spm_803_releasenotes
+            - title: Documentation 
+              path: /spm/spm_803_docs                           
     - title: Release notes
       path: /spm/release-notes      
 - title: Watson Care Manager
