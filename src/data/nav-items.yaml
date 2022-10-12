@@ -1,21 +1,23 @@
-- title: Merative Social Program Management
+- title: Social Program Management
   pages:
     - title: Overview
       path: /spm/overview
     - title: Product documentation
-      path: /spm/pdf-documentation
-      pages:
-        - title: Social Program Management 8.0.3
-          path: /spm/spm_803
-          pages:
-            - title: Download 
-              path: /spm/spm_803_download
-            - title: Release notes 
-              path: /spm/spm_803_releasenotes
-            - title: Documentation 
-              path: /spm/spm_803_docs                           
+      path: /spm/pdf-documentation                       
     - title: Release notes
-      path: /spm/release-notes      
+      path: /spm/release-notes
+- title: SPM 8.0.3 release
+  pages:
+    - title: Overview 
+      path: /spm/spm_803     
+    - title: Download 
+      path: /spm/spm_803_download
+    - title: Release notes 
+      path: /spm/spm_803_releasenotes
+    - title: Prerequisites
+      path: /spm/spm_803_prereqs
+    - title: Documentation 
+      path: /spm/spm_803_docs              
 - title: Watson Care Manager
   pages:
     - title: Overview
