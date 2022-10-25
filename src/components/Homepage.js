@@ -4,7 +4,7 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 import Carbon from './carbon.jpg';
 
-const BannerText = () => <h1>WH Support Documentation</h1>;
+const BannerText = () => <h1>Merative Support Documentation</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />
