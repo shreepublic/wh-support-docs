@@ -4,7 +4,8 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = ({ buildTime }) => (
   <>
     <p>
-     {buildTime}
+     {buildTime}      <br />
+      &copy; Merative US L.P. 1999, 2022
     </p>
     {/* <p>
       The default export from a shadowed component will replace that component
@@ -20,7 +21,7 @@ const Content = ({ buildTime }) => (
 
 const links = {
   firstCol: [
-    { href: 'https://github.com/curam-spm-devops/wh-support-docs/', linkText: 'GitHub' },
+   // { href: 'https://github.com/curam-spm-devops/wh-support-docs/', linkText: 'GitHub' },
   ],
   secondCol: [
     // { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
