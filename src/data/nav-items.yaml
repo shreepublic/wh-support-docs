@@ -8,8 +8,8 @@
       path: /spm/release-notes
 #    - title: Prerequisites
 #      path: /spm/prerequisites
-#    - title: Technical support articles
-#      path: /spm/support-articles              
+    - title: Technical support articles
+      path: /spm/support-articles          
 - title: Watson Care Manager
   pages:
     - title: Overview
