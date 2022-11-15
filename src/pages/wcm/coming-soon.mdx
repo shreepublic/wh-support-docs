@@ -3,9 +3,75 @@ title: Coming Soon in Watson Care Manager
 description: 
 ---
 
-## Flashes (Alerts)
+Read about new features and changes that are coming soon in your next update of Watson Care Manager.
 
-Read about new features and changes that are coming soon in your next update of Watson™ Care Manager.
+<AnchorLinks>
+  <AnchorLink>Introduction</AnchorLink>
+  <AnchorLink>Coming soon for reporting</AnchorLink>
+  <AnchorLink>Coming soon for administrators</AnchorLink>
+  <AnchorLink>Coming soon for care teams</AnchorLink>
+</AnchorLinks>
 
-[Coming Soon in Watson Care Manager](https://www.ibm.com/support/pages/node/6147915)
+## Introduction
 
+To help you to prepare for upcoming releases, we are excited to give you a preview of what is coming soon in Watson Care Manager. In the next release, we will add enhancements to some of the existing features in Watson Care Manager, and further views to the Bring-your-own-tool (BYOT) Reporting solution.
+
+**Note:** We are actively working on these items, so there might be some changes before the production release. For you to more easily identify the changes that apply to your instance of Watson Care Manager, updates are tagged as follows:
+
+- <span style="background-color: lightblue;">Watson Care Manager</span> - these updates are for all Watson Care Manager customers.
+- <span style="background-color: lightblue;">Reporting</span> - these items apply to all Watson Care Manager customers that use Watson Care Manager Reporting.
+- <span style="background-color: lightblue;">Service Providers</span> - these items apply to Watson Care Manager customers with the Providers feature enabled.
+- <span style="background-color: lightblue;">Organization Units</span> - these updates are for all Watson Care Manager customers with Organization Units enabled.
+- <span style="background-color: lightblue;">Community Service Referral</span> - these items apply to customers who have licensed the Watson Care Manager Community Service Referral add-on.
+- <span style="background-color: lightblue;">Community Service Payment</span> - these items apply to customers who have licensed the Watson Care Manager Community Service Payment add-on.
+- <span style="background-color: lightblue;">Connect Providers</span> - these items apply to customers who have licensed the Watson Care Manager Connect Providers add-on.
+- <span style="background-color: lightblue;">Connect Individuals</span> - these items apply to customers who have licensed the Watson Care Manager Connect Individual add-on.
+- <span style="background-color: lightblue;">Connect 360</span> - these items apply to customers who are integrated with the IBM Health and Human Services Connect 360 application.
+
+## Coming soon for reporting
+
+### Bring your own tool
+
+<span style="background-color: lightblue;">Reporting</span>
+
+In this release, Watson Care Manager reporting has continued to expand the views available in the BYOT reporting solution. We will add a Clinical and Vital views category, which will include views to allow you to report on a client's clinical and vital data, such as a client’s medication or blood pressure records. We will also include additional views in the Providers, Inquiries, and Client data categories. In the Client data views category, the additional views will allow you to report on additional client information, such as a client's status history or email history. For the full list of views that are available, see the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/). (WHPOCWCMS-79204)
+
+## Coming soon for administrators
+
+### Hiding the default Share Care Plan template (WHPOCWCMS-79059)
+
+   <span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow your organization to control whether care team users can generate or share care plans, we are introducing the ability to hide the default Share Care Plan template.
+
+If the tenant administrator configures all Share Care Plan templates to be hidden, care team members will not be able to access the Share Care Plan link on the client's summary page.
+
+If the tenant administrator configures one or more Share Care Plan templates to show, the Share Care Plan link on the client's summary page will be available to care team members to access.
+
+### Adding and viewing services and service categories (WHPOCWCMS-79282, WHPOCWCMS-79256)
+
+ <span style="background-color: lightblue;">Watson Care Manager</span>
+
+ To allow you to configure large lists of services, we are enhancing configuration options for services and service categories. You will now be able to add more than 1,000 services and service categories to the service library, either manually, through the user interface, or through APIs.  
+
+We are introducing pagination for services and service categories lists, so that when the list of services or service categories exceeds 50, pagination control will be displayed.
+
+We are also adding column sorting to the Name, Unit Type, and External System Reference columns for the services list, and filtering ability based on the service name and the external source reference. For the service categories list, we are adding column sorting to the Name and External System Reference columns.
+
+## Coming soon for care teams
+
+### Displaying rich text in the provider and provider services description on the Community Resource page (WHPOCWCMS-79282)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow care team members to quickly see important information when viewing provider and provider service information, we are adding the ability to format the provider and provider service description text using HTML tags.  
+
+As a tenant administrator, when you add new or update existing providers, provider services, or provider service groups, you will be able to use HTML tags when editing the provider or provider service description, so that the text displays in the format of your choice.
+
+You will also be able to include HTML tags in the provider and provider service description fields that are sent to Watson Care Manager through the provider APIs.
+
+### Improving search performance on the Community Resources page (WHPOCWCMS-79460)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To improve the search performance, we are reducing the maximum number of search results returned on the Community Resources page to 150. If your search returns more than 150 records, an error message that requests you to refine your search criteria will be displayed.
