@@ -5,9 +5,12 @@
     - title: Release notes
       path: /spm/release-notes
     - title: Prerequisites
-      path: /spm/prerequisites   
+      path: /spm/prerequisites
+    - title: Technical support articles
+      path: /spm/support-articles   
     - title: Product documentation
       path: /spm/pdf-documentation                       
+    
 - title: Watson Care Manager
   pages:
     - title: Overview
