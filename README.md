@@ -39,6 +39,11 @@ In VSC, install the markdownlint extension, then open the markdownlint extension
  "*.mdx": "markdown"
 },
 ```
+
+## yaml file syntax checker
+
+In VSC, install the YML Language Support by Red Hat exension. This extension identifies issues in the yaml nav file.
+
 ## Markdown syntax
 
 This gives a good overview: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#syntax.)

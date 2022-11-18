@@ -2,14 +2,15 @@
   pages:
     - title: Overview
       path: /spm/overview
-    - title: Product documentation
-      path: /spm/pdf-documentation                       
     - title: Release notes
       path: /spm/release-notes
-#    - title: Prerequisites
-#      path: /spm/prerequisites
+    - title: Prerequisites
+      path: /spm/prerequisites
     - title: Technical support articles
-      path: /spm/support-articles          
+      path: /spm/support-articles   
+    - title: Product documentation
+      path: /spm/pdf-documentation                       
+         
 - title: Watson Care Manager
   pages:
     - title: Overview
