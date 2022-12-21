@@ -10,7 +10,7 @@ Clone this repository.
 
 node.js - version 14.17.6 [^1]
 
-[^1]: It is recommended to install node using [Node Version Manager](https://github.com/nvm-sh/nvm)
+It is recommended to install node using [Node Version Manager](https://github.com/nvm-sh/nvm)
 Mac: See the 'Troubleshooting on macOS' section, you might need to create a bash profile (see related bullet)
 
 ### Install dependencies
@@ -24,6 +24,13 @@ Mac: See the 'Troubleshooting on macOS' section, you might need to create a bash
 Run `npm run dev` to build the site. (In VSC, open a new terminal window - change it to a bash window for the run command to work)
 
 After the command completes, the site will be accessible at `http://localhost:8000/` in your browser.
+
+If you are adding static assets, such as pdfs in the static directory, run the full build commands to test your links:
+
+```console
+  npm run build
+  npm run serve
+```
 
 ## Deployment
 
@@ -40,7 +47,7 @@ In VSC, install the markdownlint extension, then open the markdownlint extension
 },
 ```
 
-## yaml file syntax checker
+## YAML file syntax checker
 
 In VSC, install the YML Language Support by Red Hat exension. This extension identifies issues in the yaml nav file.
 
