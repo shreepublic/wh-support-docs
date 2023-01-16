@@ -27,3 +27,7 @@
       path: /wcm/technotes
     - title: Product documentation
       path: /wcm/product-documentation
+  hasDivider: true
+- title: Disclaimer
+  pages:
+    - path: /disclaimer/
