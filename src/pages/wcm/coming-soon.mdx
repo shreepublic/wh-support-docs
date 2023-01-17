@@ -10,16 +10,19 @@ Read about new features and changes that are coming soon in your next update of 
   <AnchorLink>Coming soon for reporting</AnchorLink>
   <AnchorLink>Coming soon for administrators</AnchorLink>
   <AnchorLink>Coming soon for care teams</AnchorLink>
+  <AnchorLink>Coming soon for security administrators</AnchorLink>
+  <AnchorLink>Coming soon for supervisors</AnchorLink>
+  <AnchorLink>Coming soon for integrations and APIs</AnchorLink>
 </AnchorLinks>
 
 ## Introduction
 
 To help you to prepare for upcoming releases, we are excited to give you a preview of what is coming soon in Watson Care Manager. In the next release, we will add enhancements to some of the existing features in Watson Care Manager, and further views to the bring-your-own-tool (BYOT) Reporting solution.
 
-To watch a video of the enhancements and the BYOT reporting views that will be included in the upcoming release, see our show and tell November 2022 videos:
+To watch a video of the enhancements and the BYOT reporting views that will be included in the upcoming release, see our show and tell January 2023 videos:
 
-* [Show and tell November 2022 with captions](/videos/show-and-tell-Nov22.mp4)
-* [Show and tell November 2022 without captions](/videos/Show-and-Tell_Nov_22_no_captions.mp4)
+* [Show and tell January 2023 with captions](/videos/show-and-tell-Jan2023-captions.mp4)
+* [Show and tell January 2023 without captions](/videos/show-and-tell-Jan2023-no-captions.mp4)
 
  For a full list of our show and tell videos, see the [product videos landing page](videos#showandtellvideos).
 
@@ -41,44 +44,89 @@ To watch a video of the enhancements and the BYOT reporting views that will be i
 
 <span style="background-color: lightblue;">Reporting</span>
 
-In this release, Watson Care Manager reporting has continued to expand the views available in the BYOT reporting solution. We will add a Clinical and Vital views category, which will include views to allow you to report on a client's clinical and vital data, such as a client’s medication or blood pressure records. We will also include additional views in the Providers, Inquiries, and Client data categories. In the Client data views category, the additional views will allow you to report on additional client information, such as a client's status history or email history. For the full list of views that are available, see the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/). (WHPOCWCMS-79204)
+In this release, Watson Care Manager reporting has continued to expand the views available in the BYOT reporting solution. We are adding some new views to the Clinical and Vital views category, which will allow you to report on a client's clinical and vital data, such as client’s weight or respiratory records. We will also include additional views in the Providers category and one new view in the Client category, which will allow you to report on the history of a referral. For the full list of views that are available, see the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/). (WHPOCWCMS-79499)
 
 ## Coming soon for administrators
 
-### Hiding the default Share Care Plan template (WHPOCWCMS-79059)
+### Longer answers in assessments and questionnaires (WHPOCWCMS-79369)
 
    <span style="background-color: lightblue;">Watson Care Manager</span>
 
-To allow your organization to control whether care team users can generate or share care plans, we are introducing the ability to hide the default Share Care Plan template.
-
-If the tenant administrator configures all Share Care Plan templates to be hidden, care team members will not be able to access the Share Care Plan link on the client's summary page.
-
-If the tenant administrator configures one or more Share Care Plan templates to be shown, the Share Care Plan link on the client's summary page will be available to care team members to access.
-
-### Adding and viewing services and service categories (WHPOCWCMS-79282, WHPOCWCMS-79256)
-
- <span style="background-color: lightblue;">Watson Care Manager</span>
-
- To allow you to configure large lists of services, we are enhancing configuration options for services and service categories. You will now be able to add more than 1,000 services and service categories to the service library, either manually, through the user interface, or through APIs.  
-
-We are introducing pagination for services and service categories lists, so that when the list of services or service categories exceeds 50, pagination control will be displayed.
-
-We are also adding column sorting to the Name, Unit Type, and External System Reference columns for the services list, and filtering ability based on the service name and the external source reference. For the service categories list, we are adding column sorting to the Name and External System Reference columns.
+To allow administrators to configure standardised assessments/questionnaires as they are specified, we are introducing the ability to enter answer options of up to 200 characters. When configuring a question with long answer options in an assessment or a questionnaire, it is preferable to use a radio button list instead of a drop-down list. This will improve the readability of the answer when it is displayed in the assessment or questionnaire in the care team application.
 
 ## Coming soon for care teams
 
-### Displaying rich text in the provider and provider services description on the Community Resource page (WHPOCWCMS-79282)
+### Creating a Share Care Plan PDF for selected sections and a specified date range (WHPOCWCMS-77849)
 
 <span style="background-color: lightblue;">Watson Care Manager</span>
 
-To allow care team members to quickly see important information when viewing provider and provider service information, we are adding the ability to format the provider and provider service description text using HTML tags.  
+To give care team workers access to concise user-friendly reports, and to allow them to quickly generate reports as needed, we are introducing the ability to generate Share Care Plan PDFs for selected sections and a specific time period.
 
-As a tenant administrator, when you add new or update existing providers, provider services, or provider service groups, you will be able to use HTML tags when editing the provider or provider service description, so that the text displays in the format of your choice.
-
-You will also be able to include HTML tags in the provider and provider service description fields that are sent to Watson Care Manager through the provider APIs.
-
-### Improving search performance on the Community Resources page (WHPOCWCMS-79460)
+### Deleting client goals (WHPOCWCMS-79463)
 
 <span style="background-color: lightblue;">Watson Care Manager</span>
 
-To improve the search performance, we are reducing the maximum number of search results returned on the Community Resources page to 150. If your search returns more than 150 records, an error message that requests you to refine your search criteria will be displayed.
+To only allow certain care team members to delete client goals, a new role-based access control (RBAC) resource will be introduced. If a care team worker is assigned a security role by a security administrator, which grants access to the new Delete Goals resource, they can delete client goals. If a care team worker is not given access to the Delete Goals resource, the delete goal action will be hidden from the care team worker.
+
+### Adding new referrals from a client's Referrals list page (WHPOCWCMS-79507)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow care team workers to more easily review and create referrals for a client, we are introducing the ability to create a referral from the client’s referral page where existing referrals can be reviewed. When a new referral is added from the client's Referral list page, the Referral list page will refresh and show the newly created referral.
+
+### Adding comments to a referral assignment (WHPOCWCMS-79542)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow care team workers to record a comment when assigning a referral, we are introducing a new comment field.
+
+### Viewing referrals history and comments (WHPOCWCMS-79536, WHPOCWCMS-79537, WHPOCWCMS-79538, WHPOCWCMS-79539)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow care team workers to view all updates and comments to a referral, we are introducing a new history section in referrals. For open referrals, you will be able to view the assignment history, such as who was assigned the referral or if the referral was unassigned, including all comments entered. If a referral was accepted or rejected, you will be able to view all the details and comments related to that in the new history section. These updates will be visible from a care team worker’s My Referrals page, the Unassigned Referrals page, and the client’s Referrals page.
+
+## Coming soon for security administrators
+
+### Configuring Delete Goals RBAC resource (WHPOCWCMS-79458, WHPOCWCMS-79461, WHPOCWCMS-79462)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow a security administrator to control if a user can or cannot delete client goals, we are introducing a new RBAC resource called Delete Goals. A security administrator will be able to grant or deny access to this RBAC resource within a user’s security role. If a user does not have access to Delete Goals, the delete goal action will be hidden from them. When we introduce this new resource Delete Goals, it will be automatically set to Access in all existing security roles.
+
+## Coming soon for supervisors
+
+### Viewing referrals history and comments (WHPOCWCMS-79541, WHPOCWCMS-79540)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow supervisors to view all updates and comments to a referral, we are introducing a new assignment history section in referrals. You will be able to view the assignment history, such as who was assigned the referral or if the referral was unassigned, including all comments entered. This will be visible from a supervisor’s Unassigned and Assigned Referrals pages.
+
+### Adding comments to referral assignment (WHPOCWCMS-79542)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+To allow supervisors to record a comment when assigning a referral, we are introducing a new comment field.
+
+## Coming soon for integrations and APIs
+
+### Add to Plan row action on External Inquiries can only be selected once (WHPOCWCMS-79855)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+The Add to Plan row action on the External Inquiries list page, could be selected multiple times. Each time this action was selected, the External Inquiry API was triggered. To prevent this, the Add to Plan row action will be disabled once it has been selected by the user. This will ensure that the API is triggered just once.
+
+### Including Add to Plan in the External Inquiries API (WHPOCWCMS-79491)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+Including Add to Plan in the External Inquiries API will effectively close the loop on the referral. The provider is informed that the service has been added to the client’s plan.
+
+### Adding Service Delivery ID to Notes API (WHPOCWCMS-79509)
+
+<span style="background-color: lightblue;">Watson Care Manager</span>
+
+The existing Notes API will be updated to include the Service Delivery ID. This enables external providers to provide feedback via API, on a service offered or provided to a client.
+
+
+

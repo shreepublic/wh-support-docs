@@ -17,8 +17,8 @@
       path: /wcm/overview
     - title: Release notes
       path: /wcm/release-notes
-     # this is a comment- title: Coming soon
-      # this is a comment path: /wcm/coming-soon
+    - title: Coming soon
+      path: /wcm/coming-soon
     - title: System requirements
       path: /wcm/requirements
     - title: Product videos
