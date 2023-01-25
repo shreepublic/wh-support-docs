@@ -3,7 +3,7 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Product Support',
+    title: 'Merative Support',
     href: 'https://www.merative.com/support/social-program-management-support-details',
   },
 ];
