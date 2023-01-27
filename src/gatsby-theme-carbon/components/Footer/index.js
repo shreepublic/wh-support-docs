@@ -5,7 +5,8 @@ const Content = ({ buildTime }) => (
   <>
     <p>
      {buildTime}      <br />
-      &copy; Merative US L.P. 1999, 2022
+      &copy; Merative US L.P. 1999, 2023<br />
+      Merative is a trademark of Merative US L.P. in the United States and other countries. 
     </p>
     {/* <p>
       The default export from a shadowed component will replace that component
