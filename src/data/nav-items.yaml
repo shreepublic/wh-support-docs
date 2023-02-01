@@ -28,6 +28,6 @@
     - title: Product documentation
       path: /wcm/product-documentation
   hasDivider: true
-- title: Disclaimer
+- title: Notices
   pages:
-    - path: /disclaimer/
+    - path: /notices/
