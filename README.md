@@ -1,6 +1,6 @@
 # Support docs transition site
 
-Here you'll find transitional support documentation for the Social Programs portfolio.
+Here you'll find transitional support and release documentation for the Merative Social Program Management portfolio.
 
 ## Installation instructions
 
