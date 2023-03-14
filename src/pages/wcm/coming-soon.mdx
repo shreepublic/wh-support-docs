@@ -8,21 +8,21 @@ Read about new features and changes that are coming soon in your next update of 
 <AnchorLinks>
   <AnchorLink>Introduction</AnchorLink>
   <AnchorLink>Coming soon for reporting</AnchorLink>
+  <AnchorLink>Coming soon for administrators</AnchorLink>
   <AnchorLink>Coming soon for care teams</AnchorLink>
+  <AnchorLink>Coming soon for integrations and APIs</AnchorLink>
 </AnchorLinks>
 
 ## Introduction
 
 To help you to prepare for upcoming releases, we are excited to give you a preview of what is coming soon in Watson Care Manager. In the next release, we will add enhancements to some of the existing features in Watson Care Manager, and further views to the bring-your-own-tool (BYOT) reporting solution.
 
-<!--
-To watch a video of the enhancements and the BYOT reporting views that will be included in the upcoming release, see our show and tell January 2023 videos:
+To watch a video of the enhancements and the BYOT reporting views that will be included in the upcoming release, see our show and tell March 2023 videos:
 
-* [Show and tell January 2023 with captions](/videos/show-and-tell-Jan2023-captions.mp4)
-* [Show and tell January 2023 without captions](/videos/show-and-tell-Jan2023-no-captions.mp4)
+* [Show and tell March 2023 with captions](/videos/show-and-tell-March2023-captions.mp4)
+* [Show and tell March 2023 without captions](/videos/show-and-tell-March2023-no-captions.mp4)
 
  For a full list of our show and tell videos, see the [product videos landing page](videos#showandtellvideos).
- -->
 
 **Note:** We are actively working on these items, so there might be some changes before the production release. For you to more easily identify the changes that apply to your instance of Watson Care Manager, updates are tagged as follows:
 
@@ -42,65 +42,38 @@ To watch a video of the enhancements and the BYOT reporting views that will be i
 
 <span style="background-color: lightblue;">Reporting</span>
 
-In this release, Watson Care Manager reporting has continued to expand the views available in the BYOT reporting solution. We are including a new view in the Client data category, which will allow you to group clients who actively receive care management from your organization. The new view allows you to group clients by month and year, so you can see your organization's active clients who are receiving care for that period. For the full list of views that are available, see the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/). (WHPOCWCMS-80627)
+In the upcoming release, Watson Care Manager reporting is continuing to expand the views available in the BYOT reporting solution. We are including a new view in the Clinical and Vital category, which groups attributes that relate to a client's waist circumference, such as the measurement number, unit, and status.  
 
-<!--
+We are deprecating two views, USERS_V1_VIEW and TEAM_MEMBERS_V1_VIEW. We will be removing these views in a future release, and we recommend that you start using their new versions, USERS_V2_VIEW and TEAM_MEMBERS_V2_VIEW. We are relabelling the ‘rolename’ attribute to ‘defaultworkspace’ for USERS_V2_View and TEAM_MEMBERS_V2_VIEW, to align with the Watson Care Manager application. When you update existing reports or create new reports which contain attributes that relate to USERS_V1_View and TEAM_MEMBERS_V1_VIEW, use the new version of these views.
+
+For the full list of views that are available, see the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/). For details on updates to existing views in the upcoming release, see the Release Notes section on the Data Summary page of the Watson Care Manager reporting data catalog [here](https://merative.github.io/wcm-reporting-datacatalog/#/guides/datasummary?id=release-notes).
+
 ## Coming soon for administrators
 
-### Longer answers in assessments and questionnaires (WHPOCWCMS-79369)
+### Enabling external messaging between Watson Care Manager and external systems
 
    <span style="background-color: lightblue;">Watson Care Manager</span>
 
-To allow administrators to configure standardised assessments/questionnaires as they are specified, we are introducing the ability to enter answer options of up to 200 characters. When configuring a question with long answer options in an assessment or a questionnaire, it is preferable to use a radio button list instead of a drop-down list. This will improve the readability of the answer when it is displayed in the assessment or questionnaire in the care team application.
--->
+To facilitate messaging between care team members and clients, we are introducing the external messaging feature. The external messaging feature uses the external messaging API to allow exchange of messages between Watson Care Manager and a client’s external system. Messaging will be added as a data type in source systems. A webhooks notification will be added to inform the subscribers when a new message becomes available in Watson Care Manager through the external messaging API. You can hide or show the external messaging feature in the care team application. You can either enable external messaging or messaging with the Connect Individuals application, but not both.
 
 ## Coming soon for care teams
 
-### Creating referrals for clients who care team users do not have access to
+### Messaging clients through external messaging
 
 <span style="background-color: lightblue;">Watson Care Manager</span>
 
-To allow restricted access care team users to create referrals for clients they do not have access to, we are removing restrictions from the care team application that prevent users from creating referrals for clients they do not have access to. (WHPOCWCMS-79471)
-<!--
-## Coming soon for security administrators
-
-### Configuring Delete Goals RBAC resource (WHPOCWCMS-79458, WHPOCWCMS-79461, WHPOCWCMS-79462)
-
-<span style="background-color: lightblue;">Watson Care Manager</span>
-
-To allow a security administrator to control if a user can or cannot delete client goals, we are introducing a new RBAC resource called Delete Goals. A security administrator will be able to grant or deny access to this RBAC resource within a user’s security role. If a user does not have access to Delete Goals, the delete goal action will be hidden from them. When we introduce this new resource Delete Goals, it will be automatically set to Access in all existing security roles.
-
-## Coming soon for supervisors
-
-### Viewing referrals history and comments (WHPOCWCMS-79541, WHPOCWCMS-79540)
-
-<span style="background-color: lightblue;">Watson Care Manager</span>
-
-To allow supervisors to view all updates and comments to a referral, we are introducing a new assignment history section in referrals. You will be able to view the assignment history, such as who was assigned the referral or if the referral was unassigned, including all comments entered. This will be visible from a supervisor’s Unassigned and Assigned Referrals pages.
-
-### Adding comments to referral assignment (WHPOCWCMS-79542)
-
-<span style="background-color: lightblue;">Watson Care Manager</span>
-
-To allow supervisors to record a comment when assigning a referral, we are introducing a new comment field.
+When your administrator enables the external messaging feature, a messaging option, like the existing messaging option with the Connect Individuals application, will be displayed to you in the side navigation menu, and a banner notification will be displayed when there are new unread messages from your client. The Message Notifications page will display a list of all unread messages received from clients who are assigned to you. You can view a client’s messages from their Summary page, by selecting Messages on their Summary page. You can send new messages to your clients, which will be delivered to the clients through the external messaging API. You can read or clear the messages as needed, and filtering will be available.
 
 ## Coming soon for integrations and APIs
 
-### Add to Plan row action on External Inquiries can only be selected once (WHPOCWCMS-79855)
+### Adding ProviderOfferingID to the inquiries API
 
 <span style="background-color: lightblue;">Watson Care Manager</span>
 
-The Add to Plan row action on the External Inquiries list page, could be selected multiple times. Each time this action was selected, the External Inquiry API was triggered. To prevent this, the Add to Plan row action will be disabled once it has been selected by the user. This will ensure that the API is triggered just once.
+We are updating the inquiries API to include the ProviderOfferingID attribute. This attribute enables the external system to associate the provider and service when the external system receives this information from Watson Care Manager.
 
-### Including Add to Plan in the External Inquiries API (WHPOCWCMS-79491)
-
-<span style="background-color: lightblue;">Watson Care Manager</span>
-
-Including Add to Plan in the External Inquiries API will effectively close the loop on the referral. The provider is informed that the service has been added to the client’s plan.
-
-### Adding Service Delivery ID to Notes API (WHPOCWCMS-79509)
+### Introducing the external messaging API to enable external messaging between Watson Care Manager and external systems
 
 <span style="background-color: lightblue;">Watson Care Manager</span>
 
-The existing Notes API will be updated to include the Service Delivery ID. This enables external providers to provide feedback via API, on a service offered or provided to a client.
--->
+We are introducing the external messaging API to facilitate the exchange of messages between care team members and clients. Care team members can send messages associated with clients through Watson Care Manager, and the external messaging API makes the messages available to the client's external portal. Similarly, clients can send messages from their external portals, and the external messaging API makes the messages available for viewing in Watson Care Manager to clients’ care teams.
