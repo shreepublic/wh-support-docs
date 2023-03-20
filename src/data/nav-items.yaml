@@ -19,7 +19,7 @@
     - title: Release notes
       path: /wcm/release-notes
    #hide until the next release - title: Coming soon
-    #hide until the next release path: /wcm/coming-soon
+      #hide until the next release path: /wcm/coming-soon
     - title: System requirements
       path: /wcm/requirements
     - title: Product videos
