@@ -6,10 +6,12 @@
       path: /spm/announcements       
     - title: Release notes
       path: /spm/release-notes
-    - title: Prerequisites
-      path: /spm/prerequisites 
+    - title: Enablement
+      path: /spm/enablement
     - title: Product documentation
       path: /spm/pdf-documentation
+    - title: Prerequisites
+      path: /spm/prerequisites 
     - title: Technical support articles
       path: /spm/support-articles                  
 - title: Watson Care Manager
