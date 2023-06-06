@@ -13,7 +13,9 @@
     - title: Prerequisites
       path: /spm/prerequisites 
     - title: Technical support articles
-      path: /spm/support-articles                  
+      path: /spm/support-articles
+    - title: Education
+      path: /spm/education                        
 - title: Merative Integrated Care
   pages:
     - title: Overview
