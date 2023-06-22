@@ -14,13 +14,10 @@
       path: /spm/prerequisites 
     - title: Technical support articles
       path: /spm/support-articles
-<<<<<<< Updated upstream
-    - title: Education
-      path: /spm/education                        
-=======
     - title: Code samples
-      path: /spm/code-samples                                  
->>>>>>> Stashed changes
+      path: /spm/code-samples
+    - title: Education
+      path: /spm/education                                                          
 - title: Merative Integrated Care
   pages:
     - title: Overview
