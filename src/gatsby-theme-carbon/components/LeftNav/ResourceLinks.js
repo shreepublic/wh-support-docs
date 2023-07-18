@@ -4,7 +4,15 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 const links = [
   {
     title: 'Merative Support',
+    href: 'https://merative.my.site.com/mysupport/s/',
+  },
+  {
+    title: 'Cúram (SPM) support details',
     href: 'https://www.merative.com/support/spm',
+  },
+  {
+    title: 'Integrated Care support details',
+    href: 'https://www.merative.com/support/integrated-care',
   },
 ];
 

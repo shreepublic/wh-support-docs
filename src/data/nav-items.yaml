@@ -1,8 +1,8 @@
-- title: Social Program Management
+- title: Cúram (SPM)
   pages:
     - title: Overview
       path: /spm/overview
-    - title: 8.0.3 is now available
+    - title: 8.1 is now available
       path: /spm/announcements       
     - title: Release notes
       path: /spm/release-notes
@@ -14,8 +14,10 @@
       path: /spm/prerequisites 
     - title: Technical support articles
       path: /spm/support-articles
+    - title: Code samples
+      path: /spm/code-samples
     - title: Education
-      path: /spm/education                        
+      path: /spm/education                                                          
 - title: Merative Integrated Care
   pages:
     - title: Overview
@@ -23,7 +25,7 @@
     - title: Release notes
       path: /wcm/release-notes
    # - title: Coming soon
-   #   path: /wcm/coming-soon
+      # path: /wcm/coming-soon
     - title: System requirements
       path: /wcm/requirements
     - title: Product videos
