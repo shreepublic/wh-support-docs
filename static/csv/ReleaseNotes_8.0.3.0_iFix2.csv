@@ -1,12 +1,12 @@
 TICKET,APAR,SUMMARY,COMPONENT,SUBCOMPONENT1,SUBCOMPONENT2,SUBCOMPONENT3,RELEASE_NOTE
-SPM-130140,DT036660,Focus disappears when tabbing through expandable lists in the application,Accessibility,,,,"**Issue Description:**
+SPM-130140,DT036660,Focus disappears when tabbing through expandable lists in the application,Accessibility,,,,"*Issue Description:*
 Focus disappears when navigating through sections of an expandable list using the keyboard.
 
-**User Interface Impact:** No.
+*User Interface Impact:* No.
 
-**Steps to Reproduce:**
+*Steps to Reproduce:*
 
-**Scenario 1:**
+*Scenario 1:*
 1. Log in as a case worker.
 2. Register a person.
 3. Navigate to the Evidence tab.
@@ -15,7 +15,7 @@ Focus disappears when navigating through sections of an expandable list using th
 6. Press tab key again.
 Issue: Focus goes to invisible elements and user has to tab multiple times before focus goes to Case Participant cluster.
 
-**Scenario 2:**
+*Scenario 2:*
 1. Log in as an eligibility caseworker.
 2. Register a person and create a Food Assistance application case.
 3. On the submitted application case navigate to the Evidence tab.
@@ -24,7 +24,7 @@ Issue: Focus goes to invisible elements and user has to tab multiple times befor
 6. Press tab key again.
 Issue: Focus goes to invisible elements and user has to tab multiple times before focus goes to Change Summary sortable column.
 
-**Scenario 3:**
+*Scenario 3:*
 1. Log in as a caseworker.
 2. Register a person and navigate to the Notes tab.
 3. Add a New Note.
@@ -33,7 +33,7 @@ Issue: Focus goes to invisible elements and user has to tab multiple times befor
 6. Press tab key again.
 Issue: Focus goes to invisible elements and user has to tab multiple times before focus goes to Case Participant cluster.
 
-**Scenario 4:**
+*Scenario 4:*
 1. Log in as an administrator.
 2. Navigate to the Administration Workspace. 
 3. Expand the Shortcuts menu and navigate to Rules and Evidence.
@@ -43,7 +43,7 @@ Issue: Focus goes to invisible elements and user has to tab multiple times befor
 7. Press the tab key again.
 Issue: Focus goes to invisible elements and the user has to tab multiple times before focus goes to Evidence Type sortable column.
 
-**Resolution:**
+*Resolution:*
 Now, the invisible elements that were being focused on have been removed and tabbing goes directly to the next focusable element on the expandable list.
 
 "
