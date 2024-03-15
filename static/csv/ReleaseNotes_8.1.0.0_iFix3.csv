@@ -47,7 +47,7 @@ When a modal is opened from within a sublist within a nested list and the modal 
 The page is refreshing and rendering correctly, the focus is on the sublist within the nested list and the user can see the updated values.   
 
 "
-SPM-130372,DT036803,A performance issues is present on large lists that contain action controls and menus,CEF,Application Development Environment,,,"*Issue Description:*
+SPM-130372,DT036803,A performance issue is present on large lists that contain action controls and menus,CEF,Application Development Environment,,,"*Issue Description:*
 When a list has to be rendered with a large number of records containing action controls and menus the resultant page is slow to appear.
 
 *User Interface Impact:* Yes
